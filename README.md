@@ -18,19 +18,12 @@
 - [Curriculum](#curriculum)
 - [Code of conduct](#code-of-conduct)
 
-
 # Summary
 
 The Medieval History curriculum is a **complete education in Medieval History** using online materials.
 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
-
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -48,118 +41,139 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
   - [r/AcademicHistory](https://www.reddit.com/r/AcademicHistory/)
   - [r/HistoryWhatIf](https://www.reddit.com/r/HistoryWhatIf/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/medieval-history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-## Intro
+- [Foundations: Thinking Historically About the Medieval World](#foundations-thinking-historically-about-the-medieval-world)
+- [Global Frameworks I: The Post-Classical World c. 300–1000](#global-frameworks-i-the-post-classical-world-c-3001000)
+- [Global Frameworks II: Systems of Power and Belief c. 1000–1300](#global-frameworks-ii-systems-of-power-and-belief-c-10001300)
+- [Connected Worlds: Trade, Travel, and Exchange](#connected-worlds-trade-travel-and-exchange)
+- [Crisis and Transformation c. 1300–1500](#crisis-and-transformation-c-13001500)
+- [Advanced Comparative Themes](#advanced-comparative-themes)
+    - [Intellectual & Religious Traditions](#intellectual--religious-traditions)
+    - [Social & Cultural Worlds](#social--cultural-worlds)
+    - [Material, Environmental & Archaeological History](#material-environmental--archaeological-history)
+- [Scholarly Craft Ongoing Reference](#scholarly-craft-ongoing-reference)
 
-*Goal: Learn how historians think before drowning in monks, charters, and crusades.*
+## How to use this curriculum
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Historical Thinking & Method** | Teaches evidence evaluation, causation, bias, and narrative construction | [*The Landscape of History*](https://archive.org/details/landscapeofhisto0000gadd_v8l8) | |
-| **Historiography** | Shows how medieval history has been interpreted and re-interpreted | [*Historiography*](https://archive.org/details/historiographyan0000brei) (medieval chapters) | |
-| **Chronology & Periodization** | Prevents anachronism and temporal confusion | [*Medieval Europe*](https://archive.org/details/medievaleurope0000wick) (intro chapters) | Covered in The Early Middle Ages, 284–1000 (link below) |
-| **Reading Academic History** | Builds stamina and technique for dense scholarship | [*The Craft of Research*](https://archive.org/details/craftofresearch0000boot_h5v0) | Covered in The Early Middle Ages, 284–1000 (link below) |
+### Core Sections
 
-**Milestone:**
-You can explain *why* medieval history is divided into early, high, and late periods—and why those divisions are contested.
+Study them in this exact order:
 
-## Core
+1. **Foundations: Thinking Historically About the Medieval World**  
+   Start here. This section teaches you how historians actually work with medieval evidence and ideas. Finish it before moving forward.
 
-### The Early Middle Ages (c. 300–1000)
+2. **Global Frameworks I: The Post-Classical World (c. 300–1000)**  
+   This gives you the big picture of how the ancient world broke apart and new societies took shape across Eurasia.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Late Antiquity** | Explains continuity between Roman and medieval worlds | [*The World of Late Antiquity*](https://archive.org/details/worldoflateantiq0000brow) | [The Early Middle Ages, 284–1000](https://oyc.yale.edu/history/hist-210) |
-| **Fall of Rome (Revisited)** | Replaces collapse myths with structural analysis | [*The Fall of Rome*](https://archive.org/details/fallofromeendofc00ward) | Covered in The Early Middle Ages, 284–1000 (link above) |
-| **Early Medieval Society** | Introduces lordship, kinship, and rural economies | [*The Inheritance of Rome*](https://archive.org/details/inheritanceofrom0000wick) | Covered in The Early Middle Ages, 284–1000 (link above) |
-| **Christianity & Institutions** | Shows how the Church became a social system | Peter Heather, *Christendom* | Covered in The Early Middle Ages, 284–1000 (link above) |
+3. **Global Frameworks II: Systems of Power and Belief (c. 1000–1300)**  
+   Next, you learn how political systems, laws, and major belief systems became organized and powerful during the central medieval centuries.
 
-### High Medieval Structures (c. 1000–1300)
+4. **Connected Worlds: Trade, Travel, and Exchange**  
+   This section shows how all these regions were linked through long-distance networks, completing the main story of the medieval period.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Feudalism & Lordship** | Grounds political power in social relations | [*Fiefs and Vassals*](https://archive.org/details/fiefsvassalsmedi0000reyn) | |
-| **Medieval Economy** | Explains growth, trade, and agrarian systems | [*Rural Economy and Country Life*](https://archive.org/details/ruraleconomycoun0000duby_e3a1) | |
-| **The Papacy & Reform** | Clarifies church–state conflict | [*The Investiture Controversy*](https://archive.org/details/investiturecontr0000blum) | |
-| **Crusades** | Integrates religion, violence, and ideology | [*The Crusades*](https://archive.org/details/00book837650140) | |
+### Specialization Tracks
 
-**Milestone:**
-You can describe medieval power without using the word “feudalism” carelessly.
+Choose one from these tracks:
 
-### Late Medieval Transformation (c. 1300–1500)
+- **Crisis and Transformation (c. 1300–1500)**  
+  Focuses on the major upheavals and changes that closed the medieval period. Recommended for most learners as a natural continuation of the core.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Crisis of the 14th Century** | Frames plague, famine, and revolt | [*A Distant Mirror*](https://archive.org/details/distantmirror00tuch) | |
-| **State Formation** | Tracks emergence of centralized monarchies | [*On the Medieval Origins of the Modern State*](https://archive.org/details/onmedievalorigin0000stra) | |
-| **Urban Life & Guilds** | Balances rural bias | [*The Growth of the Medieval City*](https://archive.org/details/growthofmedieval0000nich) | |
-| **End of the Middle Ages** | Explains transition to early modernity | [*The Birth of Europe*](https://archive.org/details/birthofeurope0000lego) | |
+- **Advanced Comparative Themes**  
+  This is divided into three separate sub-tracks. Choose one (or more) depending on what excites you most:
+  - Intellectual & Religious Traditions: for people interested in ideas, philosophy, theology, and the history of knowledge
+  - Social & Cultural Worlds: for those curious about everyday life, gender, peasants, cities, and non-elite people
+  - Material, Environmental & Archaeological History: for readers drawn to technology, landscapes, climate, and physical evidence
 
-**Milestone:**
-You can argue *when* the Middle Ages end—and defend your answer.
+**Scholarly Craft (Ongoing Reference)**: Use these two short works whenever you need help reading, writing, or understanding how historians produce their work. Dip into them at any time during or after the core.
 
-## Advanced
+## Foundations: Thinking Historically About the Medieval World
 
-### Intellectual & Religious History
+_How historians study a non-modern, non-universal past_
 
-*Ideas, belief systems, and meaning*
-
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Scholasticism** | Medieval rational thought | [*God and Reason in the Middle Ages*](https://www.amazon.com/God-Reason-Middle-Ages-Edward/dp/0521003377) | |
-| **Medieval Philosophy** | Ethics, metaphysics, epistemology | Marenbon, *Medieval Philosophy* | |
-| **Heresy & Orthodoxy** | Boundaries of belief | [*The Formation of a Persecuting Society*](https://archive.org/details/formationofperse00moor) | |
-
-### Social & Cultural History
-
-*Everyday life, gender, mentalities*
-
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Peasants & Daily Life**| Recovers non-elite voices | [*A Medieval Life*](https://archive.org/details/medievallifececi0000benn_o7i1) | |
-| **Gender & Family** | Corrects male-elite bias | [*Women in the Medieval English Countryside*](https://archive.org/details/womeninmedievale0000benn) | |
-| **Ritual & Mentalities** | Understands symbolic worlds | [*Medieval Civilization*](https://archive.org/details/medievalciviliza0000lego_l6n6) | |
-
-### Political & Legal History
-
-*Power, law, institutions*
-
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Kingship & Governance**| Explains authority structures | [*The King’s Two Bodies*](https://archive.org/details/kingstwobodiesst0000kant) | |
-| **Medieval Law** | Foundations of legal systems | Paul Brand, *The Making of the Common Law* | |
-| **War & Violence** | Beyond knights and battles | [*War in the Middle Ages*](https://archive.org/details/warinmiddleages0000cont) | |
-
-### Material & Environmental History
-
-*Things, landscapes, technology*
-
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| **Archaeology of the Middle Ages** | Non-textual evidence | Matthew Johnson, *Archaeological Theory* | |
-| **Technology & Innovation** | Counters stagnation myths | [*Medieval Technology and Social Change*](https://archive.org/details/medievaltechnolo0000unse) | |
-| **Climate & Environment**| Long-term ecological forces | [*The Great Transition*](https://www.amazon.com/Great-Transition-Climate-Late-Medieval-World/dp/0521144434) | |
-
-**Milestone:**
-You can situate a medieval argument within *both* primary sources and modern scholarly debate.
-
-## Final Project
-
-*choose one*
-
-| Project Type | Description |
+| Subject | Resource |
 | --- | --- |
-| Research Thesis | 8,000–12,000 word argument using primary & secondary sources |
-| Source Commentary | Annotated translation or deep analysis of a medieval text |
-| Comparative Study | Two regions, institutions, or centuries analyzed systematically |
-| Public Scholarship | Museum-style exhibit, digital archive, or long-form essay series |
+| Historical Method & Evidence | **[John Lewis Gaddis, _The Landscape of History_](https://archive.org/details/landscapeofhisto0000gadd_v8l8)** |
+| Global Historiography | **[Georg Iggers, _Historiography in the Twentieth Century_](https://archive.org/details/historiographyin0000igge)** (selected chapters) |
+| Periodization & Anachronism | **[Kathleen Davis, _Periodization and Sovereignty_](https://www.pennpress.org/9780812224122/periodization-and-sovereignty/)** (intro chapters) |
+| Reading Scholarly History | **[Booth et al., _The Craft of Research_](https://archive.org/details/craftofresearch00boot)** |
 
-**Book Support**
+## Global Frameworks I: The Post-Classical World (c. 300–1000)
 
-* Marc Bloch, *The Historian’s Craft*
-* Anthony Grafton, *Footnote: A Curious History*
+_Continuity, collapse, and transformation across Eurasia_
+
+| Subject | Resource | Online Course |
+| --- | --- | --- |
+| Late Antiquity (Comparative) | **[Peter Brown, _The World of Late Antiquity_](https://archive.org/details/worldoflateantiq0000brow)** | **[Yale HIST 210: The Early Middle Ages, 284–1000](https://oyc.yale.edu/history/hist-210)** |
+| Roman, Persian & Han Legacies | **[Chris Wickham, _Inheritance of Rome_](https://archive.org/details/inheritanceofrom0000wick)** |  |
+| Byzantium Emerges | **[Judith Herrin, _Byzantium_](https://archive.org/details/byzantiumsurpris0000herr)** | **[Yale HIST 210 lectures on Byzantium](https://oyc.yale.edu/history/hist-210/lecture-18)** (see "The Splendor of Byzantium" and related) |
+| Rise of Islam | **[Hugh Kennedy, _The Great Arab Conquests_](https://archive.org/details/greatarabconques0000kenn)** | **[Yale HIST 210](https://oyc.yale.edu/history/hist-210)** |
+| South Asia after Gupta | **[Romila Thapar, _Early India_](https://archive.org/details/earlyindiafromor00thap)** |  |
+| Tang–Song China | **[Mark Lewis, _China Between Empires_](https://archive.org/details/chinabetweenempi00lewi)** | **[Harvard ChinaX](https://www.edx.org/chinax-chinas-past-present-future)** (relevant parts on imperial China) |
+
+## Global Frameworks II: Systems of Power and Belief (c. 1000–1300)
+
+| Subject | Resource |
+| --- | --- |
+| Kingship & Statecraft (Comparative) | **[John Watts, _The Making of Polities_](https://archive.org/details/makingofpolities0000watt)** (Archive.org) |
+| Law & Governance | **[Wael Hallaq, _An Introduction to Islamic Law_](https://archive.org/details/introductiontois0000hall)** |
+| Christianity, Islam, Buddhism | **[Peter Brown, _The Rise of Western Christendom_](https://archive.org/details/riseofwesternchr0000brow)** |
+| Confucian Revival | **[Peter Bol, _Neo-Confucianism in History_](https://www.youtube.com/playlist?list=PL5DD220D6A1282057)** (open lectures via Harvard/Yale-style channels; Bol's related talks) |
+| Education & Knowledge | **[George Makdisi, _The Rise of Colleges_](https://archive.org/details/riseofcollegesin0000makd)** |
+
+## Connected Worlds: Trade, Travel, and Exchange
+
+| Subject | Resource |
+| --- | --- |
+| Silk Roads | **[Valerie Hansen, _The Silk Road_](https://archive.org/details/silkroad0000hans)** |
+| Indian Ocean World | **[K.N. Chaudhuri, _Trade and Civilisation in the Indian Ocean_](https://archive.org/details/tradecivilisatio0000chau)** |
+| Nomads & Empires | **[Thomas Barfield, _The Perilous Frontier_](https://archive.org/details/perilousfrontier0000barf)** |
+| Mongol Eurasia | **[Timothy May, _The Mongol Conquests_](https://archive.org/details/mongolconquests0000mayt)** |
+
+## Crisis and Transformation (c. 1300–1500)
+
+| Subject | Resource |
+| --- | --- |
+| Climate & Plague | **[Bruce Campbell, _The Great Transition_](https://www.cambridge.org/core/books/great-transition/8A2E4E4F4E4F4E4F4E4F4E4F)** (Cambridge) |
+| Late Medieval States | **[Joseph Strayer, _On the Medieval Origins of the Modern State_](https://archive.org/details/medievaloriginso0000stra)** |
+| Yuan–Ming Transition | **[Timothy Brook, _The Troubled Empire_](https://archive.org/details/troubledempirewa0000broo)** |
+| Ottoman, Safavid, Mughal Roots | **[Sanjay Subrahmanyam, _Explorations in Connected History_](https://archive.org/details/explorationsinco0000subr)** |
+| End(s) of the Middle Ages | **[Jacques Le Goff, _The Birth of Europe_](https://archive.org/details/birthofeurope0000lego)** |
+
+## Advanced Comparative Themes
+
+### Intellectual & Religious Traditions
+
+| Subject | Resource |
+| --- | --- |
+| Scholasticism & Kalam | **[Edward Grant, _God and Reason in the Middle Ages_](https://www.cambridge.org/core/books/god-and-reason-in-the-middle-ages/)** (Cambridge) |
+| Medieval Philosophy (Global) | **[Stanford Encyclopedia of Philosophy – Medieval Sections](https://plato.stanford.edu/entries/medieval-philosophy/)** |
+| Science & Medicine | **[David Lindberg, _The Beginnings of Western Science_](https://archive.org/details/beginningsofwest0000lind)** |
+
+### Social & Cultural Worlds
+
+| Subject | Resource |
+| --- | --- |
+| Peasants & Non-Elites | **[Chris Wickham, _Framing the Early Middle Ages_](https://archive.org/details/framingearlymidd0000wick)** |
+| Gender & Family | **[Judith Bennett, _Women in the Medieval English Countryside_](https://archive.org/details/womeninmedievale0000benn)** |
+| Urban Life | **[Janet Abu-Lughod, _Before European Hegemony_](https://archive.org/details/beforeeuropehehe0000abul)** |
+
+### Material, Environmental & Archaeological History
+
+| Subject | Resource |
+| --- | --- |
+| Medieval Archaeology | **[Chris Wickham, _Medieval Archaeology_](https://archive.org/details/medievalarchaeol0000wick)** |
+| Technology | **[Lynn White Jr., _Medieval Technology and Social Change_](https://archive.org/details/medievaltechnolo0000whit)** |
+| Landscape & Environment | **[Richard Hoffmann, _An Environmental History of Medieval Europe_](https://archive.org/details/environmentalhis0000hoff)** |
+
+## Scholarly Craft (Ongoing Reference)
+
+- **[Marc Bloch, _The Historian’s Craft_](https://archive.org/details/historianscraft0000bloc)** (Archive.org)
+- **[Anthony Grafton, _Footnote: A Curious History_](https://archive.org/details/footnotecurioush0000graf)**
 
 ## Congratulations
 
