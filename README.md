@@ -1,15 +1,7 @@
-<div align="center" style="text-align: center">
-<img src="/images/logo.png" alt=""/>
-<h3>Hocbigg - Medieval History</h3>
-<p>
-  Path to a free self-taught education in Medieval History!
-</p>
-<p>
-  <a href="https://github.com/hocbigg/medieval-history">
-    <img alt="Hocbigg" src="/images/view_on_github.svg"
-  ></a>
-</p>
-</div>
+---
+title: Hocbigg - Medieval History
+description: Path to a free self-taught education in Medieval History!
+---
 
 # Contents
 
@@ -22,24 +14,40 @@
 
 The Medieval History curriculum is a **complete education in Medieval History** using online materials.
 
+## Organization
+
+This repository is organized into three main components:
+
+- **Core Curriculum** (this page): the foundational knowledge of the field;
+- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
+- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
+
+**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
+
+- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
+- The Core Curriculum provides a shared foundation and is intended to be completed in full.
+- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
+
+Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
+
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
 **[How to contribute](/CONTRIBUTING.html)**
 
 # Communities
 
 - Forums:
-  - [Historum](https://historum.com/)
-  - [Res Historica](https://reshistorica.forumotion.com/)
-  - [AlternateHistory.com](https://www.alternatehistory.com/forum/)
-  - [History Forum at The History Press](https://www.thehistorypress.co.uk/forum/)
+    - [Historum](https://historum.com/)
+    - [Res Historica](https://reshistorica.forumotion.com/)
+    - [AlternateHistory.com](https://www.alternatehistory.com/forum/)
+    - [History Forum at The History Press](https://www.thehistorypress.co.uk/forum/)
 - Subreddits:
-  - [r/history](https://www.reddit.com/r/history/)
-  - [r/AskHistorians](https://www.reddit.com/r/AskHistorians/)
-  - [r/HistoryPorn](https://www.reddit.com/r/HistoryPorn/)
-  - [r/AcademicHistory](https://www.reddit.com/r/AcademicHistory/)
-  - [r/HistoryWhatIf](https://www.reddit.com/r/HistoryWhatIf/)
+    - [r/history](https://www.reddit.com/r/history/)
+    - [r/AskHistorians](https://www.reddit.com/r/AskHistorians/)
+    - [r/HistoryPorn](https://www.reddit.com/r/HistoryPorn/)
+    - [r/AcademicHistory](https://www.reddit.com/r/AcademicHistory/)
+    - [r/HistoryWhatIf](https://www.reddit.com/r/HistoryWhatIf/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/medieval-history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
 - Join our Discord server (for discussions around this and other curricula): 
     
@@ -51,12 +59,6 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 - [Global Frameworks I: The Post-Classical World c. 300–1000](#global-frameworks-i-the-post-classical-world-c-3001000)
 - [Global Frameworks II: Systems of Power and Belief c. 1000–1300](#global-frameworks-ii-systems-of-power-and-belief-c-10001300)
 - [Connected Worlds: Trade, Travel, and Exchange](#connected-worlds-trade-travel-and-exchange)
-- [Crisis and Transformation c. 1300–1500](#crisis-and-transformation-c-13001500)
-- [Advanced Comparative Themes](#advanced-comparative-themes)
-    - [Intellectual & Religious Traditions](#intellectual--religious-traditions)
-    - [Social & Cultural Worlds](#social--cultural-worlds)
-    - [Material, Environmental & Archaeological History](#material-environmental--archaeological-history)
-- [Scholarly Craft Ongoing Reference](#scholarly-craft-ongoing-reference)
 
 ## How to use this curriculum
 
@@ -75,21 +77,6 @@ Study them in this exact order:
 
 4. **Connected Worlds: Trade, Travel, and Exchange**  
    This section shows how all these regions were linked through long-distance networks, completing the main story of the medieval period.
-
-### Specialization Tracks
-
-Choose one from these tracks:
-
-- **Crisis and Transformation (c. 1300–1500)**  
-  Focuses on the major upheavals and changes that closed the medieval period. Recommended for most learners as a natural continuation of the core.
-
-- **Advanced Comparative Themes**  
-  This is divided into three separate sub-tracks. Choose one (or more) depending on what excites you most:
-  - Intellectual & Religious Traditions: for people interested in ideas, philosophy, theology, and the history of knowledge
-  - Social & Cultural Worlds: for those curious about everyday life, gender, peasants, cities, and non-elite people
-  - Material, Environmental & Archaeological History: for readers drawn to technology, landscapes, climate, and physical evidence
-
-**Scholarly Craft (Ongoing Reference)**: Use these two short works whenever you need help reading, writing, or understanding how historians produce their work. Dip into them at any time during or after the core.
 
 ## Foundations: Thinking Historically About the Medieval World
 
@@ -134,46 +121,6 @@ _Continuity, collapse, and transformation across Eurasia_
 | Nomads & Empires | **[Thomas Barfield, _The Perilous Frontier_](https://archive.org/details/perilousfrontier0000barf)** |
 | Mongol Eurasia | **[Timothy May, _The Mongol Conquests_](https://archive.org/details/mongolconquests0000mayt)** |
 
-## Crisis and Transformation (c. 1300–1500)
-
-| Subject | Resource |
-| --- | --- |
-| Climate & Plague | **[Bruce Campbell, _The Great Transition_](https://www.cambridge.org/core/books/great-transition/8A2E4E4F4E4F4E4F4E4F4E4F)** (Cambridge) |
-| Late Medieval States | **[Joseph Strayer, _On the Medieval Origins of the Modern State_](https://archive.org/details/medievaloriginso0000stra)** |
-| Yuan–Ming Transition | **[Timothy Brook, _The Troubled Empire_](https://archive.org/details/troubledempirewa0000broo)** |
-| Ottoman, Safavid, Mughal Roots | **[Sanjay Subrahmanyam, _Explorations in Connected History_](https://archive.org/details/explorationsinco0000subr)** |
-| End(s) of the Middle Ages | **[Jacques Le Goff, _The Birth of Europe_](https://archive.org/details/birthofeurope0000lego)** |
-
-## Advanced Comparative Themes
-
-### Intellectual & Religious Traditions
-
-| Subject | Resource |
-| --- | --- |
-| Scholasticism & Kalam | **[Edward Grant, _God and Reason in the Middle Ages_](https://www.cambridge.org/core/books/god-and-reason-in-the-middle-ages/)** (Cambridge) |
-| Medieval Philosophy (Global) | **[Stanford Encyclopedia of Philosophy – Medieval Sections](https://plato.stanford.edu/entries/medieval-philosophy/)** |
-| Science & Medicine | **[David Lindberg, _The Beginnings of Western Science_](https://archive.org/details/beginningsofwest0000lind)** |
-
-### Social & Cultural Worlds
-
-| Subject | Resource |
-| --- | --- |
-| Peasants & Non-Elites | **[Chris Wickham, _Framing the Early Middle Ages_](https://archive.org/details/framingearlymidd0000wick)** |
-| Gender & Family | **[Judith Bennett, _Women in the Medieval English Countryside_](https://archive.org/details/womeninmedievale0000benn)** |
-| Urban Life | **[Janet Abu-Lughod, _Before European Hegemony_](https://archive.org/details/beforeeuropehehe0000abul)** |
-
-### Material, Environmental & Archaeological History
-
-| Subject | Resource |
-| --- | --- |
-| Medieval Archaeology | **[Chris Wickham, _Medieval Archaeology_](https://archive.org/details/medievalarchaeol0000wick)** |
-| Technology | **[Lynn White Jr., _Medieval Technology and Social Change_](https://archive.org/details/medievaltechnolo0000whit)** |
-| Landscape & Environment | **[Richard Hoffmann, _An Environmental History of Medieval Europe_](https://archive.org/details/environmentalhis0000hoff)** |
-
-## Scholarly Craft (Ongoing Reference)
-
-- **[Marc Bloch, _The Historian’s Craft_](https://archive.org/details/historianscraft0000bloc)** (Archive.org)
-- **[Anthony Grafton, _Footnote: A Curious History_](https://archive.org/details/footnotecurioush0000graf)**
 
 ## Congratulations
 
