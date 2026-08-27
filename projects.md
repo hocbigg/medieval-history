@@ -4,8 +4,6 @@ A curated collection of step-by-step methodological guides, analytical workflows
 
 Learners choose an artifact they want to construct (e.g., an encoded diplomatic edition, a spatial gazetteer, an interactive social network graph, or an archival exhibit) and master underlying historical and digital methods through hands-on practice.
 
----
-
 ## Paleography, Diplomatics & Textual Editions
 
 - [The National Archives: Latin Palaeography & Reading Old Documents](https://www.nationalarchives.gov.uk/help-with-your-research/reading-old-documents/)

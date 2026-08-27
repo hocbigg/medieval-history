@@ -4,8 +4,6 @@ A curated bibliography of field-defining monographs, seminal primary chronicles,
 
 These works represent major historiographical breakthroughs that transformed how historians conceptualize the post-classical and medieval worlds.
 
----
-
 ## Foundational Primary Texts & Eyewitness Accounts
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -15,8 +13,6 @@ These works represent major historiographical breakthroughs that transformed how
 | **[*The Muqaddimah: An Introduction to History*](https://archive.org/details/muqaddimahintrod0000ibnk)** | Ibn Khaldun | Historiographical Treatise | A foundational fourteenth-century treatise establishing early sociological theory, economic cycles, and the role of social cohesion (*asabiyyah*) in state formation. |
 | **[*The Book of the City of Ladies*](https://archive.org/details/bookofcityofladi0000chri)** | Christine de Pizan | Philosophical Allegory | An early humanist masterwork that systematically dismantles centuries of misogynistic literary traditions through philosophical debate and historical biography. |
 | **[*The Mission of Friar William of Rubruck*](https://archive.org/details/missionoffriarwi0000will)** | William of Rubruck | Travel Itinerary / Report | One of the most detailed and observant anthropological accounts of the Mongol Empire and Inner Asian steppe societies produced by a medieval Western traveler. |
-
----
 
 ## Historiographical Classics & Paradigm Shifts
 
@@ -28,8 +24,6 @@ These works represent major historiographical breakthroughs that transformed how
 | **[*Mohammed and Charlemagne*](https://archive.org/details/mohammedandcharl0000pire)** | Henri Pirenne | Monograph | The work that introduced the "Pirenne Thesis," arguing that Mediterranean unity was severed not by Germanic migrations, but by the seventh-century rise of Islam. |
 | **"The Tyranny of a Construct: Feudalism and Historians of Medieval Europe"** | Elizabeth A. R. Brown | Landmark Essay / Paper | A field-shaping paper published in *The American Historical Review* that challenged the oversimplified, institutional model of "feudalism" in medieval scholarship. |
 
----
-
 ## Social Structures, Microhistory & Mentalities
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -38,8 +32,6 @@ These works represent major historiographical breakthroughs that transformed how
 | **[*The Cheese and the Worms: The Cosmos of a Sixteenth-Century Miller*](https://archive.org/details/cheesewormscosmo0000ginz)** | Carlo Ginzburg | Microhistory / Monograph | A study exploring how popular agrarian folklore and high textual culture collided in the unique cosmology of a peasant miller. |
 | **[*Holy Feast and Holy Fast: The Religious Significance of Food to Medieval Women*](https://archive.org/details/holyfeastholyfas0000bynu)** | Caroline Walker Bynum | Monograph | A pioneering study in gender and religious history showing how medieval women reclaimed bodily control and expressed spiritual authority through food practices. |
 | **[*The Formation of a Persecuting Society*](https://archive.org/details/formationofperse00moor)** | R. I. Moore | Monograph | Demonstrates how eleventh- and twelfth-century institutional expansion systematically generated apparatuses for marginalizing heretics, Jews, and lepers. |
-
----
 
 ## Economy, Environment & Global Networks
 

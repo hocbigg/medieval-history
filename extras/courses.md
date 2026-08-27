@@ -2,8 +2,6 @@
 
 A curated directory of university open courses, specialized MOOCs, and expert audio lecture series for Medieval History.
 
----
-
 ## Late Antiquity & The Early Middle Ages
 
 - [The Early Middle Ages, 284–1000 (Yale Open Courses / Prof. Paul Freedman)](https://oyc.yale.edu/history/hist-210)
