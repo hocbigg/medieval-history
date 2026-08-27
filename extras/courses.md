@@ -1,29 +1,36 @@
 # Great Courses
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+A curated directory of university open courses, specialized MOOCs, and expert audio lecture series for Medieval History.
 
-### General Medieval Europe
+---
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[The Early Middle Ages, 284–1000](https://oyc.yale.edu/history/hist-210) | 22 lectures | 1-2 hours/lecture
-[The Age of Cathedrals](https://oyc.yale.edu/history/hist-210) | - | -
-[Medieval Europe Lecture Series](https://www.youtube.com/playlist?list=PLtakTn5rTpSrju8C1Zh4e4pDeZx5Qe3v_) | Multiple lectures | Variable
+## Late Antiquity & The Early Middle Ages
 
-### Specialized Topics
+- [The Early Middle Ages, 284–1000 (Yale Open Courses / Prof. Paul Freedman)](https://oyc.yale.edu/history/hist-210)
+- [The Fall of Rome and the End of Civilization (University of Oxford / Podcasts)](https://podcasts.ox.ac.uk)
+- [Early Christianity: The Letters of Paul and the Early Church (Harvard University / HarvardX)](https://online.harvard.edu)
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[The Book of Kells: Exploring an Irish Medieval Masterpiece](https://www.futurelearn.com/courses/book-of-kells) | 4 weeks | 3 hours/week
-[The Cosmopolitan Medieval Arabic World](https://www.coursera.org/learn/cosmopolitan-medieval-arabic-world) | 6 weeks | 2-4 hours/week
-[Magic in the Middle Ages](https://www.coursera.org/learn/magic-middle-ages) | 5 weeks | 3 hours/week
+## Architecture, Manuscripts & Material Culture
 
-## Online Learning - Great Courses
+- [The Age of Cathedrals (Yale University / Coursera / Prof. R. Howard Bloch)](https://www.coursera.org/learn/age-of-cathedrals)
+- [The Book of Kells: Exploring an Irish Medieval Masterpiece (Trinity College Dublin / FutureLearn)](https://www.futurelearn.com/courses/book-of-kells)
+- [The Book: Making and Meaning in the Medieval Manuscript (Harvard University / HarvardX)](https://online.harvard.edu)
+- [The Medieval Book of Hours: Art and Devotion in the Later Middle Ages (Harvard University / HarvardX)](https://online.harvard.edu)
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+## The Islamic World & Global Medieval Connections
+
+- [The Cosmopolitan Medieval Arabic World (Leiden University / Coursera / Prof. Petra Sijpesteijn)](https://www.coursera.org/learn/cosmopolitan-medieval-arabic-world)
+- [ChinaX: Cosmopolitan Tang to Literati Song Dynasties (Harvard University / edX / Prof. Peter Bol)](https://www.edx.org/chinax-chinas-past-present-future)
+- [The Ottoman Empire and the Medieval Mediterranean (The Ottoman History Podcast)](https://www.ottomanhistorypodcast.com)
+
+## Cultural Mentalities, Magic & Daily Life
+
+- [Magic in the Middle Ages (Universitat de Barcelona / Coursera)](https://www.coursera.org/learn/magic-middle-ages)
+- [Dante's Divine Comedy and the Medieval Worldview (Yale Open Courses)](https://oyc.yale.edu)
+- [Monks, Nuns, and Medieval Monastic Life (University of Oxford / Oxford Medieval Studies)](https://podcasts.ox.ac.uk)
+
+## Academic Audio Series & Scholarly Dialogues
+
+- [In Our Time: Medieval History Archive (BBC Radio 4 / Melvyn Bragg)](https://www.bbc.co.uk/programmes/b006qykl)
+- [Oxford Medieval Studies Podcasts (University of Oxford)](https://podcasts.ox.ac.uk)
+- [Medievalists.net Audio Lectures & Scholar Interviews (Medievalists.net)](https://www.medievalists.net)

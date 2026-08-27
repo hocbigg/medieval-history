@@ -1,51 +1,42 @@
 # Projects
 
-This page is a curated collection of well-written, step-by-step guides for learning Medieval History through hands-on, project-based practice.
+A curated collection of step-by-step methodological guides, analytical workflows, and open-source project walkthroughs for medieval history.
 
-> *What I cannot create, I do not understand — Richard Feynman.*
+Learners choose an artifact they want to construct (e.g., an encoded diplomatic edition, a spatial gazetteer, an interactive social network graph, or an archival exhibit) and master underlying historical and digital methods through hands-on practice.
 
-These projects are meant to support learning throughout the curriculum, not only at the end.  
-By building, writing, creating, or reconstructing real artifacts in the field, learners develop practical understanding alongside theoretical study.
+---
 
-## Tutorials
+## Paleography, Diplomatics & Textual Editions
 
-* [Epic Poem](#compose-your-own-epic-poem)
-* [Genealogy](#construct-your-own-genealogy)
-* [Fortification](#design-your-own-fortification)
-* [Monastic Rule](#compose-your-own-monastic-rule)
-* [Illuminated Manuscript](#create-your-own-illuminated-manuscript)
-* [Arms and Armor](#reconstruct-your-own-arms-and-armor)
-* [Medieval City](#build-your-own-medieval-city)
+- [The National Archives: Latin Palaeography & Reading Old Documents](https://www.nationalarchives.gov.uk/help-with-your-research/reading-old-documents/)
+- [Borthwick Institute: Reading the Past — Sixteenth and Seventeenth Century English Handwriting](https://www.york.ac.uk/borthwick/)
+- [Fragmentarium: Digital Research Lab for Medieval Manuscript Fragments](https://fragmentarium.ms)
+- [HIMANIS Project: Handwritten Text Recognition for Medieval Chancery Registers](http://himanis.huma-num.fr/app/)
 
-### Compose your own epic poem
+## Spatial History, Historical GIS & Digital Topography
 
-* [How to Write an Epic Poem: Infographic](https://www.tweetspeakpoetry.com/2015/09/30/how-to-write-an-epic-poem-infographic/) (Infographic / Visual guide)
-* [How to Write Epic Poems in 8 Steps](https://www.automateed.com/how-to-write-epic-poems) (Step-by-step article / Textual tutorial)
+- [Programming Historian: Georeferencing in QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis)
+- [Programming Historian: Working with Named Places — How and Why to Build a Gazetteer](https://programminghistorian.org/en/lessons/working-with-named-places)
+- [Programming Historian: Displaying a Georeferenced Map in KnightLab's StoryMap JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
+- [Programming Historian: Introduction to Map Warper](https://programminghistorian.org/en/lessons/intro-to-map-warper)
+- [Programming Historian: Geocoding Historical Data using QGIS](https://programminghistorian.org/en/lessons/geocoding-qgis)
 
-### Construct your own genealogy
+## Prosopography, Kinship & Social Network Analysis
 
-* [Medieval Genealogy Family History Class Notes](http://weiner-gozen.blogspot.com/2015/02/medieval-genealogy-family-history-class.html) (Blog post / Instructional notes)
+- [Programming Historian: From Hermeneutics to Data to Networks — Data Extraction and Network Visualization of Historical Sources](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
+- [Programming Historian: Exploring and Analyzing Network Data with Python](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python)
+- [Programming Historian: Temporal Network Analysis with R](https://programminghistorian.org/en/lessons/temporal-network-analysis-with-r)
+- [Programming Historian: From Sources to Data — Designing a Database for the Humanities with nodegoat](https://programminghistorian.org/en/lessons/humanities-relational-database-nodegoat)
 
-### Design your own fortification
+## Digital Curation, Text Encoding & Archival Exhibits
 
-* [How to build a medieval castle: A step-by-step guide](https://www.historyskills.com/classroom/year-8/how-to-build-a-castle) (Step-by-step article / Historical engineering guide)
-* [3D Guide - How to Build the Perfect Medieval Castle](https://www.youtube.com/watch?v=Syjg6PHYFBo) (Video tutorial / Visual walkthrough)
+- [TEI by Example: Step-by-Step Electronic Text Markup for the Humanities](https://teibyexample.org)
+- [Programming Historian: Introduction to Encoding Texts in TEI](https://programminghistorian.org/en/lessons/introduction-to-tei-1)
+- [Programming Historian: Building a Digital Exhibition with CollectionBuilder and the Internet Archive](https://programminghistorian.org/en/lessons/building-a-digital-exhibition-collectionbuilder-internet-archive)
+- [Programming Historian: Creating an Omeka Exhibit and Digital Archive](https://programminghistorian.org/en/lessons/up-and-running-with-omeka)
 
-### Compose your own monastic rule
+## Material Culture & Experimental Reconstruction
 
-* [Making a Monastic Rule of Life](https://thenewbenedictinecommunity.com/2020/04/22/making-a-monastic-rule-of-life) (Article / Personal adaptation guide)
-* [St. Benedict & Creating Your Own Personal “Rule”](https://www.stevemacias.com/st-benedict-creating-your-own-personal-rule) (Blog post / Instructional overview)
-
-### Create your own illuminated manuscript
-
-* [A Step-by-Step Guide to Making an Illuminated Manuscript](https://hyperallergic.com/a-step-by-step-guide-to-making-an-illuminated-manuscript) (Article / Detailed procedural guide)
-* [Easy Ways to Make Illuminated Manuscripts (with Pictures)](https://www.wikihow.com/Make-Illuminated-Manuscripts) (WikiHow tutorial / Illustrated steps)
-* [How To Draw Illuminated Letters (Step-By-Step Tutorial)](https://www.lettering-daily.com/illuminated-letters) (Tutorial / Focused on decoration)
-
-### Reconstruct your own arms and armor
-
-* [Unlocking the Mystery of Medieval Armor medieval-history Pattern Making](https://www.youtube.com/watch?v=w2U4-zd8ysg) (Video tutorial / Pattern and construction guide)
-
-### Build your own medieval city
-
-* [The Medieval City Plan Generator](https://www.openculture.com/2019/04/the-medieval-city-plan-generator.html) (Online tool / Procedural generator with explanation)
+- [Fitzwilliam Museum: Manuscripts in the Making — Scientific and Material Analysis of Illuminations](https://www.fitzmuseum.cam.ac.uk)
+- [Guédelon Project: Experimental Archaeology and Thirteenth-Century Castle Construction](https://www.guedelon.fr/en/)
+- [The Morgan Library & Museum: Medieval and Renaissance Manuscripts Curatorial Analysis](https://www.themorgan.org/collection/medieval-and-renaissance-manuscripts)
