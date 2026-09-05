@@ -22,7 +22,7 @@ These works represent major historiographical breakthroughs that transformed how
 | **[*The Making of the Middle Ages*](https://archive.org/details/makingofmiddleag0000sout)** | R. W. Southern | Monograph | A portrait of the central medieval centuries that traces the profound shift from epic monastic piety to individual affective devotion and scholastic inquiry. |
 | **[*The World of Late Antiquity: AD 150–750*](https://archive.org/details/worldoflateantiq0000brow)** | Peter Brown | Monograph | The breakthrough study that overturned the Gibbonian "decline and fall" narrative, establishing Late Antiquity as an intellectually dynamic and culturally fertile era. |
 | **[*Mohammed and Charlemagne*](https://archive.org/details/mohammedandcharl0000pire)** | Henri Pirenne | Monograph | The work that introduced the "Pirenne Thesis," arguing that Mediterranean unity was severed not by Germanic migrations, but by the seventh-century rise of Islam. |
-| **"The Tyranny of a Construct: Feudalism and Historians of Medieval Europe"** | Elizabeth A. R. Brown | Landmark Essay / Paper | A field-shaping paper published in *The American Historical Review* that challenged the oversimplified, institutional model of "feudalism" in medieval scholarship. |
+| **["The Tyranny of a Construct: Feudalism and Historians of Medieval Europe"](https://www.jstor.org/stable/1869563)** | Elizabeth A. R. Brown | Landmark Essay / Paper | A field-shaping paper published in *The American Historical Review* that challenged the oversimplified, institutional model of "feudalism" in medieval scholarship. |
 
 ## Social Structures, Microhistory & Mentalities
 

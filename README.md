@@ -41,7 +41,7 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [Historum](https://historum.com/)
     - [Res Historica](https://reshistorica.forumotion.com/)
     - [AlternateHistory.com](https://www.alternatehistory.com/forum/)
-    - [History Forum at The History Press](https://www.thehistorypress.co.uk/forum/)
+    
 - Subreddits:
     - [r/history](https://www.reddit.com/r/history/)
     - [r/AskHistorians](https://www.reddit.com/r/AskHistorians/)
@@ -88,7 +88,7 @@ _How historians study a non-modern, non-universal past_
 
 | Subject | Resource |
 | --- | --- |
-| Introduction to Medieval Studies | **John H. Arnold, _What is Medieval History?_** (Polity Press) |
+| Introduction to Medieval Studies | **[John H. Arnold, _What is Medieval History?_](https://archive.org/details/whatismedievalhi0000arno)** (Polity Press) |
 | Primary Source Analysis & Method | **[Barbara H. Rosenwein, _Reading the Middle Ages: Sources from Europe, Byzantium, and the Islamic World_](https://archive.org/details/readingmiddleage0002unse)** |
 | Historical Method & Evidence | **[John Lewis Gaddis, _The Landscape of History_](https://archive.org/details/landscapeofhisto0000gadd_v8l8)** |
 | Reading Scholarly History | **[Booth et al., _The Craft of Research_](https://archive.org/details/craftofresearch00boot)** |
@@ -114,7 +114,7 @@ _Expansion, institutionalization, and cross-cultural contact_
 | --- | --- |
 | Kingship, Statecraft & Expansion | **[Robert Bartlett, _The Making of Europe: Conquest, Colonization and Cultural Change, 950–1350_](https://archive.org/details/isbn_9780140154092)** |
 | Crusades & Mediterranean Encounters | **[Thomas Asbridge, _The Crusades: The Authoritative History of the War for the Holy Land_](https://archive.org/details/crusadesauthorit0000asbr)** |
-| Church, Papacy & Monasticism | **R.W. Southern, _Western Society and the Church in the Middle Ages_** (Penguin Books) |
+| Church, Papacy & Monasticism | **[R.W. Southern, _Western Society and the Church in the Middle Ages_](https://archive.org/details/westernsocietych0000sout)** (Penguin Books) |
 | Law & Governance | **[Wael Hallaq, _An Introduction to Islamic Law_](https://archive.org/details/introductiontois0000hall)** |
 | Confucian Revival | **Peter Bol, _Neo-Confucianism in History_** (Harvard University Press) |
 | Education & Knowledge | **[George Makdisi, _The Rise of Colleges_](https://archive.org/details/riseofcollegesin0000makd)** |
@@ -125,10 +125,10 @@ _Demographic shock, prolonged warfare, and the late medieval transition_
 
 | Subject | Resource |
 | --- | --- |
-| The Black Death & 14th-Century Crisis | **John Aberth, _The Black Death: The Great Mortality of 1348–1350: A Brief History with Documents_** (Bedford/St. Martin's) |
+| The Black Death & 14th-Century Crisis | **[John Aberth, _The Black Death: The Great Mortality of 1348–1350: A Brief History with Documents_](https://archive.org/details/blackdeathgreatm0000aber)** (Bedford/St. Martin's) |
 | Climate, Economy & Demography | **Bruce M. S. Campbell, _The Great Transition: Climate, Disease and Society in the Late-Medieval World_** (Cambridge University Press) |
 | Late Medieval Statecraft & Warfare | **[John Watts, _The Making of Polities: Europe, 1300–1500_](https://archive.org/details/makingofpolities0000watt)** |
-| Ottoman Expansion & Byzantine Fall | **Caroline Finkel, _Osman's Dream: The History of the Ottoman Empire_** (Basic Books) |
+| Ottoman Expansion & Byzantine Fall | **[Caroline Finkel, _Osman's Dream: The History of the Ottoman Empire_](https://archive.org/details/osmansdreamstory0000fink)** (Basic Books) |
 
 ## Connected Worlds: Trade, Travel, and Exchange
 
@@ -136,17 +136,11 @@ _Afro-Eurasian connectivity, exchange, and empire building_
 
 | Subject | Resource |
 | --- | --- |
-| Silk Roads | **[Valerie Hansen, _The Silk Road_](https://archive.org/details/silkroad0000hans)** |
-| Indian Ocean World | **[K.N. Chaudhuri, _Trade and Civilisation in the Indian Ocean_](https://archive.org/details/tradecivilisatio0000chau)** |
+| Silk Roads | **Valerie Hansen, _The Silk Road_** |
+| Indian Ocean World | **[K.N. Chaudhuri, _Trade and Civilisation in the Indian Ocean_](https://archive.org/details/tradecivilisatio00chau)** |
 | Nomads & Empires | **[Thomas Barfield, _The Perilous Frontier_](https://archive.org/details/perilousfrontier0000barf)** |
-| Mongol Eurasia | **[Timothy May, _The Mongol Conquests_](https://archive.org/details/mongolconquests0000mayt)** |
+| Mongol Eurasia | **Timothy May, _The Mongol Conquests_** |
 | Primary Source Repositories | **[Internet Medieval Sourcebook](https://sourcebooks.fordham.edu/sbook.asp)** (Fordham Center for Medieval Studies) |
-
-## Congratulations
-
-After completing the requirements of the curriculum above,
-you will have completed the equivalent of a full bachelor's degree core in Medieval History.
-Congratulations!
 
 # Code of conduct
 

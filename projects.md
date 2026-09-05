@@ -14,9 +14,9 @@ Learners choose an artifact they want to construct (e.g., an encoded diplomatic 
 ## Spatial History, Historical GIS & Digital Topography
 
 - [Programming Historian: Georeferencing in QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis)
-- [Programming Historian: Working with Named Places — How and Why to Build a Gazetteer](https://programminghistorian.org/en/lessons/working-with-named-places)
+- [Programming Historian: Finding Places in Text with the World Historical Gazetteer](https://programminghistorian.org/en/lessons/finding-places-world-historical-gazetteer)
 - [Programming Historian: Displaying a Georeferenced Map in KnightLab's StoryMap JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
-- [Programming Historian: Introduction to Map Warper](https://programminghistorian.org/en/lessons/intro-to-map-warper)
+- [Programming Historian: Introduction to Map Warper](https://programminghistorian.org/en/lessons/introduction-to-map-warper)
 - [Programming Historian: Geocoding Historical Data using QGIS](https://programminghistorian.org/en/lessons/geocoding-qgis)
 
 ## Prosopography, Kinship & Social Network Analysis
@@ -24,14 +24,14 @@ Learners choose an artifact they want to construct (e.g., an encoded diplomatic 
 - [Programming Historian: From Hermeneutics to Data to Networks — Data Extraction and Network Visualization of Historical Sources](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources)
 - [Programming Historian: Exploring and Analyzing Network Data with Python](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python)
 - [Programming Historian: Temporal Network Analysis with R](https://programminghistorian.org/en/lessons/temporal-network-analysis-with-r)
-- [Programming Historian: From Sources to Data — Designing a Database for the Humanities with nodegoat](https://programminghistorian.org/en/lessons/humanities-relational-database-nodegoat)
+- [Programming Historian: From Sources to Data: Designing a Database for the Humanities and Social Sciences with nodegoat](https://programminghistorian.org/en/lessons/concevoir-base-donnees-nodegoat)
 
 ## Digital Curation, Text Encoding & Archival Exhibits
 
 - [TEI by Example: Step-by-Step Electronic Text Markup for the Humanities](https://teibyexample.org)
-- [Programming Historian: Introduction to Encoding Texts in TEI](https://programminghistorian.org/en/lessons/introduction-to-tei-1)
+- [TEI by Example: Step-by-Step Electronic Text Markup for the Humanities](https://teibyexample.org)
 - [Programming Historian: Building a Digital Exhibition with CollectionBuilder and the Internet Archive](https://programminghistorian.org/en/lessons/building-a-digital-exhibition-collectionbuilder-internet-archive)
-- [Programming Historian: Creating an Omeka Exhibit and Digital Archive](https://programminghistorian.org/en/lessons/up-and-running-with-omeka)
+- [Programming Historian: Creating an Omeka Exhibit and Digital Archive](https://programminghistorian.org/en/lessons/creating-an-omeka-exhibit)
 
 ## Material Culture & Experimental Reconstruction
 

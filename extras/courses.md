@@ -6,14 +6,14 @@ A curated directory of university open courses, specialized MOOCs, and expert au
 
 - [The Early Middle Ages, 284–1000 (Yale Open Courses / Prof. Paul Freedman)](https://oyc.yale.edu/history/hist-210)
 - [The Fall of Rome and the End of Civilization (University of Oxford / Podcasts)](https://podcasts.ox.ac.uk)
-- [Early Christianity: The Letters of Paul and the Early Church (Harvard University / HarvardX)](https://online.harvard.edu)
+- [Early Christianity: The Letters of Paul and the Early Church (Harvard University / HarvardX)](https://www.edx.org/school/harvardx)
 
 ## Architecture, Manuscripts & Material Culture
 
 - [The Age of Cathedrals (Yale University / Coursera / Prof. R. Howard Bloch)](https://www.coursera.org/learn/age-of-cathedrals)
 - [The Book of Kells: Exploring an Irish Medieval Masterpiece (Trinity College Dublin / FutureLearn)](https://www.futurelearn.com/courses/book-of-kells)
-- [The Book: Making and Meaning in the Medieval Manuscript (Harvard University / HarvardX)](https://online.harvard.edu)
-- [The Medieval Book of Hours: Art and Devotion in the Later Middle Ages (Harvard University / HarvardX)](https://online.harvard.edu)
+- [The Book: Making and Meaning in the Medieval Manuscript (Harvard University / HarvardX)](https://www.edx.org/school/harvardx)
+- [The Medieval Book of Hours: Art and Devotion in the Later Middle Ages (Harvard University / HarvardX)](https://www.edx.org/school/harvardx)
 
 ## The Islamic World & Global Medieval Connections
 

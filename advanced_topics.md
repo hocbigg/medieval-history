@@ -28,9 +28,9 @@
 
 | Topic | Why Study | Resources |
 | --- | --- | --- |
-| Scholastic Logic & Metaphysics | Examines how university disputations synthesized Aristotelian logic with Christian theology, shaping Western epistemological categories. | **[Edward Grant, _God and Reason in the Middle Ages_](https://www.cambridge.org/core/books/god-and-reason-in-the-middle-ages/)**<br>- **[Robert Pasnau & Christina van Dyke (eds.), _The Cambridge History of Medieval Philosophy_](https://archive.org/details/cambridgehistory0002unse_y2s9)** |
+| Scholastic Logic & Metaphysics | Examines how university disputations synthesized Aristotelian logic with Christian theology, shaping Western epistemological categories. | **[Edward Grant, _God and Reason in the Middle Ages_](https://archive.org/details/godreasoninmiddl0000gran)**<br>- **[Robert Pasnau & Christina van Dyke (eds.), _The Cambridge History of Medieval Philosophy_](https://archive.org/details/cambridgehistory0002unse_y2s9)** |
 | Islamic Philosophy (*Falsafa*) & *Kalam* | Traces the translation, critique, and transformation of Hellenistic philosophy in Baghdad, Cordoba, and Cairo by thinkers such as Ibn Sina and Ibn Rushd. | **[Dimitri Gutas, _Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad_](https://archive.org/details/greekthoughtarab0000guta_v3l3)**<br>- **[Stanford Encyclopedia of Philosophy: Medieval Philosophy](https://plato.stanford.edu/entries/medieval-philosophy/)** |
-| Natural Philosophy, Cosmology & Medicine | Explores medieval empirical observation, humoral medicine, optics, and astronomical models across Latin, Byzantine, and Islamic traditions. | **[David Lindberg, _The Beginnings of Western Science_](https://archive.org/details/beginningsofwest0000lind)** |
+| Natural Philosophy, Cosmology & Medicine | Explores medieval empirical observation, humoral medicine, optics, and astronomical models across Latin, Byzantine, and Islamic traditions. | **[David Lindberg, _The Beginnings of Western Science_](https://archive.org/details/beginningsofwest00lind)** |
 
 ## Social Hierarchies, Gender, and Marginality
 
@@ -38,15 +38,15 @@
 | --- | --- | --- |
 | Peasant Economies & Microhistory | Uncovers the daily routines, customary rights, and lived mentalities of non-elite agrarian populations through microhistorical analysis. | **[Emmanuel Le Roy Ladurie, _Montaillou: The Promised Land of Error_](https://archive.org/details/montailloupromis0000lero)**<br>- **[Chris Wickham, _Framing the Early Middle Ages_](https://archive.org/details/framingearlymidd0000wick)** |
 | Gender, Sexuality & Female Authority | Critiques patriarchal legal frameworks by analyzing female agency, domestic labor, bodily autonomy, and women's mystical writings. | **[Judith Bennett, _Women in the Medieval English Countryside_](https://archive.org/details/womeninmedievale0000benn)** |
-| Persecution, Heresy & Minority Relations | Investigates how emerging bureaucratic states and church authorities constructed deviance to suppress Cathars, Jews, and other minority groups. | **[R. I. Moore, _The Formation of a Persecuting Society: Authority and Deviance in Western Europe, 950–1250_](https://archive.org/details/formationofperse00moor)**<br>- David Nirenberg, _Communities of Violence: Persecution of Minorities in the Middle Ages_ (Princeton University Press) |
+| Persecution, Heresy & Minority Relations | Investigates how emerging bureaucratic states and church authorities constructed deviance to suppress Cathars, Jews, and other minority groups. | **[R. I. Moore, _The Formation of a Persecuting Society: Authority and Deviance in Western Europe, 950–1250_](https://archive.org/details/formationofperse00moor)**<br>- [David Nirenberg, _Communities of Violence: Persecution of Minorities in the Middle Ages_](https://archive.org/details/communitiesofvio0000nire) (Princeton University Press) |
 
 ## Environmental History, Paleoclimatology, and Bioarchaeology
 
 | Topic | Why Study | Resources |
 | --- | --- | --- |
 | Climate Shocks & Ecological Transitions | Integrates tree-ring, ice-core, and speleothem data to evaluate how the Medieval Climate Anomaly and Little Ice Age influenced food security. | Bruce M. S. Campbell, _The Great Transition: Climate, Disease and Society in the Late-Medieval World_ (Cambridge University Press) |
-| Agrarian Ecosystems & Resource Regimes | Analyzes how woodland management, drainage systems, and watermills reshaped European and Mediterranean landscapes. | Richard C. Hoffmann, _An Environmental History of Medieval Europe_ (Cambridge University Press) |
-| Historical Bioarchaeology & Ancient DNA | Uses ancient DNA (*Yersinia pestis*) and skeletal remains to track the epidemiology, mortality profiles, and evolutionary paths of medieval pandemics. | Monica H. Green (ed.), _Pandemic Disease in the Medieval World: Rethinking the Black Death_ (Arc Humanities Press / The Medieval Globe) |
+| Agrarian Ecosystems & Resource Regimes | Analyzes how woodland management, drainage systems, and watermills reshaped European and Mediterranean landscapes. | [Richard C. Hoffmann, _An Environmental History of Medieval Europe_](https://archive.org/details/environmentalhis0000hoff) (Cambridge University Press) |
+| Historical Bioarchaeology & Ancient DNA | Uses ancient DNA (*Yersinia pestis*) and skeletal remains to track the epidemiology, mortality profiles, and evolutionary paths of medieval pandemics. | [Monica H. Green (ed.), _Pandemic Disease in the Medieval World: Rethinking the Black Death_](https://scholarworks.wmich.edu/medieval_globe/1) (Arc Humanities Press / The Medieval Globe) |
 
 ## The Global Middle Ages and Frontier Dynamics
 
