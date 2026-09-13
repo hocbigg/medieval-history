@@ -1,34 +1,33 @@
-# Great Courses
+# Great Courses: Medieval History
 
-A curated directory of university open courses, specialized MOOCs, and expert audio lecture series for Medieval History.
+A curated directory of university open courses, specialized MOOCs, and expert lecture series for self-directed study in Medieval History.
 
-## Late Antiquity & The Early Middle Ages
+## Late Antiquity and Early Medieval Transformations
 
-- [The Early Middle Ages, 284–1000 (Yale Open Courses / Prof. Paul Freedman)](https://oyc.yale.edu/history/hist-210)
-- [The Fall of Rome and the End of Civilization (University of Oxford / Podcasts)](https://podcasts.ox.ac.uk)
-- [Early Christianity: The Letters of Paul and the Early Church (Harvard University / HarvardX)](https://www.edx.org/school/harvardx)
+- [The Early Middle Ages, 284–1000 (Open Yale Courses / Prof. Paul Freedman)](https://oyc.yale.edu/history/hist-210)
+- [A Journey through Western Christianity: from Persecuted Faith to Global Religion (200–1650) (Yale University / Coursera / Prof. Bruce Gordon)](https://www.coursera.org/learn/western-christianity-200-1650)
 
-## Architecture, Manuscripts & Material Culture
+## The Central Middle Ages: Architecture, Literature, and Faith
 
 - [The Age of Cathedrals (Yale University / Coursera / Prof. R. Howard Bloch)](https://www.coursera.org/learn/age-of-cathedrals)
-- [The Book of Kells: Exploring an Irish Medieval Masterpiece (Trinity College Dublin / FutureLearn)](https://www.futurelearn.com/courses/book-of-kells)
-- [The Book: Making and Meaning in the Medieval Manuscript (Harvard University / HarvardX)](https://www.edx.org/school/harvardx)
-- [The Medieval Book of Hours: Art and Devotion in the Later Middle Ages (Harvard University / HarvardX)](https://www.edx.org/school/harvardx)
+- [Dante in Translation (Open Yale Courses / Prof. Giuseppe Mazzotta)](https://oyc.yale.edu/italian-language-and-literature/ital-310)
 
-## The Islamic World & Global Medieval Connections
+## Medieval Intellectual History, Philosophy, and Science
 
-- [The Cosmopolitan Medieval Arabic World (Leiden University / Coursera / Prof. Petra Sijpesteijn)](https://www.coursera.org/learn/cosmopolitan-medieval-arabic-world)
-- [ChinaX: Cosmopolitan Tang to Literati Song Dynasties (Harvard University / edX / Prof. Peter Bol)](https://www.edx.org/chinax-chinas-past-present-future)
-- [The Ottoman Empire and the Medieval Mediterranean (The Ottoman History Podcast)](https://www.ottomanhistorypodcast.com)
+- [Medieval Philosophy (History of Philosophy Without Any Gaps / Prof. Peter Adamson)](https://historyofphilosophy.net/series/medieval-philosophy)
+- [Philosophy in the Islamic World (History of Philosophy Without Any Gaps / Prof. Peter Adamson)](https://historyofphilosophy.net/series/islamic-world)
 
-## Cultural Mentalities, Magic & Daily Life
+## Material Culture, Paleography, and Manuscript Studies
 
-- [Magic in the Middle Ages (Universitat de Barcelona / Coursera)](https://www.coursera.org/learn/magic-middle-ages)
-- [Dante's Divine Comedy and the Medieval Worldview (Yale Open Courses)](https://oyc.yale.edu)
-- [Monks, Nuns, and Medieval Monastic Life (University of Oxford / Oxford Medieval Studies)](https://podcasts.ox.ac.uk)
+- [The Book of Kells: Exploring an Irish Medieval Masterpiece (Trinity College Dublin / FutureLearn / Prof. Rachel Moss)](https://www.futurelearn.com/courses/book-of-kells)
+- [Latin Paleography Online Tutorial (Hill Museum & Manuscript Library / HMML School)](https://hmmlschool.org/latin/)
 
-## Academic Audio Series & Scholarly Dialogues
+## Daily Life, Mentalities, and Gender
 
-- [In Our Time: Medieval History Archive (BBC Radio 4 / Melvyn Bragg)](https://www.bbc.co.uk/programmes/b006qykl)
-- [Oxford Medieval Studies Podcasts (University of Oxford)](https://podcasts.ox.ac.uk)
-- [Medievalists.net Audio Lectures & Scholar Interviews (Medievalists.net)](https://www.medievalists.net)
+- [Magic in the Middle Ages (Universitat de Barcelona / Coursera / Prof. Pau Castell Granados)](https://www.coursera.org/learn/magic-middle-ages)
+- [A Voice of Their Own: Women's Spirituality in the Middle Ages (Universitat de Barcelona / Coursera)](https://www.coursera.org/learn/womens-spirituality)
+
+## The Islamic World, Iberia, and Cross-Cultural Encounters
+
+- [The Cosmopolitan Medieval Arabic World (Universiteit Leiden / Coursera / Prof. Petra Sijpesteijn)](https://www.coursera.org/learn/cosmopolitan-medieval-arabic-world)
+- [Coexistence in Medieval Spain: Jews, Christians, and Muslims (University of Colorado System / Coursera / Prof. Roger L. Martínez-Dávila)](https://www.coursera.org/learn/coexistence-in-medieval-spain)

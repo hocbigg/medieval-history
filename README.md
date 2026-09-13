@@ -3,39 +3,11 @@ title: Hocbigg - Medieval History
 description: Path to a free self-taught education in Medieval History!
 ---
 
-# Contents
-
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+## Introduction
 
 The Medieval History curriculum is a **complete education in Medieval History** using online materials.
 
-## Organization
-
-This repository is organized into three main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
-
-**[How to contribute](/CONTRIBUTING.html)**
-
-# Communities
+## Communities
 
 - Forums:
     - [Historum](https://historum.com/)
@@ -49,99 +21,67 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [r/AcademicHistory](https://www.reddit.com/r/AcademicHistory/)
     - [r/HistoryWhatIf](https://www.reddit.com/r/HistoryWhatIf/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/medieval-history/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [Foundations: Thinking Historically About the Medieval World](#foundations-thinking-historically-about-the-medieval-world)
-- [Global Frameworks I: The Post-Classical World c. 300–1000](#global-frameworks-i-the-post-classical-world-c-3001000)
-- [Global Frameworks II: Systems of Power and Belief c. 1000–1300](#global-frameworks-ii-systems-of-power-and-belief-c-10001300)
-- [Global Frameworks III: Crisis, Plague, and Transformation c. 1300–1500](#global-frameworks-iii-crisis-plague-and-transformation-c-13001500)
-- [Connected Worlds: Trade, Travel, and Exchange](#connected-worlds-trade-travel-and-exchange)
+### Foundations of Medieval History and Historiography
 
-## How to use this curriculum
+This foundational module introduces the concept of the Middle Ages, the core narrative of its three heir civilizations, and the critical methods historians use to interpret medieval primary evidence.
 
-### Core Sections
+[A Short History of the Middle Ages (Barbara H. Rosenwein)](https://books.google.com/books?isbn=9781487540999) - Serves as the core chronological and geographical narrative spine, charting the parallel evolution of Western Europe, Byzantium, and the Islamic world from c. 300 to 1500.
 
-Study them in this exact order:
+[What is Medieval History? (John H. Arnold)](https://archive.org/details/whatismedievalhi0000arno) - Best read alongside Rosenwein's survey as a methodological companion, explaining how modern historians interrogate fragmentary medieval sources, navigate anachronisms, and construct historical arguments.
 
-1. **Foundations: Thinking Historically About the Medieval World**
-   Start here. This section teaches you how historians analyze medieval primary sources, navigate fragmentary evidence, and avoid modern anachronisms. Finish it before moving forward.
+[Reading the Middle Ages: Sources from Europe, Byzantium, and the Islamic World (Barbara H. Rosenwein)](https://archive.org/details/readingmiddleage0002unse) - The primary-source companion designed to match Rosenwein's narrative textbook; study its translated documentary and material selections in tandem with each survey chapter.
 
-2. **Global Frameworks I: The Post-Classical World (c. 300–1000)**
-   This gives you the big picture of how ancient empires transformed and new post-classical societies took shape across Eurasia and the Mediterranean.
+### The Early Middle Ages: The Post-Classical World (c. 300–1000)
 
-3. **Global Frameworks II: Systems of Power and Belief (c. 1000–1300)**
-   Next, you learn how political institutions, feudal ties, religious authorities, and intellectual centers consolidated during the central medieval centuries.
+This module examines the transformation of the late Roman world, the rise of Germanic successor kingdoms in the West, the survival of the Eastern Roman Empire, and the rapid expansion of the Islamic Caliphates.
 
-4. **Global Frameworks III: Crisis, Plague, and Transformation (c. 1300–1500)**
-   This section examines the demographic shocks of the Black Death, prolonged warfare, religious unrest, and the realignment of empires preceding the early modern era.
+[The Early Middle Ages, 284–1000 (Open Yale Courses / Paul Freedman)](https://oyc.yale.edu/history/hist-210) - The primary audiovisual lecture spine for this period, offering a complete 24-lecture university walkthrough covering the collapse of Roman administration, early monasticism, the rise of Islam, and the Carolingian Empire.
 
-5. **Connected Worlds: Trade, Travel, and Exchange**
-   This section shows how all these regions were linked through long-distance commercial networks, nomad empires, and intercultural exchange across Afro-Eurasia.
+[The World of Late Antiquity: AD 150–750 (Peter Brown)](https://archive.org/details/worldoflateantiq0000brow) - Provides the foundational conceptual framework for the opening segment of Freedman's lectures, showing how Mediterranean cultural and religious life transformed continuously rather than abruptly collapsing.
 
-## Foundations: Thinking Historically About the Medieval World
+[The Inheritance of Rome: Illuminating the Dark Ages, 400–1000 (Chris Wickham)](https://archive.org/details/inheritanceofrom0000wick) - A detailed regional monograph focusing on the post-Roman West; use this to deepen Freedman's lectures on barbarian kingdoms, peasant economies, and the Carolingian state.
 
-_How historians study a non-modern, non-universal past_
+[Byzantium: The Surprising Life of a Medieval Empire (Judith Herrin)](https://archive.org/details/byzantiumsurpris0000herr) - A complementary regional study to be paired with Freedman's Byzantine lectures, offering an accessible analysis of Constantinople's court administration, Orthodox theology, and military survival.
 
-| Subject | Resource |
-| --- | --- |
-| Introduction to Medieval Studies | **[John H. Arnold, _What is Medieval History?_](https://archive.org/details/whatismedievalhi0000arno)** (Polity Press) |
-| Primary Source Analysis & Method | **[Barbara H. Rosenwein, _Reading the Middle Ages: Sources from Europe, Byzantium, and the Islamic World_](https://archive.org/details/readingmiddleage0002unse)** |
-| Historical Method & Evidence | **[John Lewis Gaddis, _The Landscape of History_](https://archive.org/details/landscapeofhisto0000gadd_v8l8)** |
-| Reading Scholarly History | **[Booth et al., _The Craft of Research_](https://archive.org/details/craftofresearch00boot)** |
+[The Great Arab Conquests: How the Spread of Islam Changed the World We Live In (Hugh Kennedy)](https://archive.org/details/greatarabconques0000kenn) - Complements the Western and Byzantine readings with a focused narrative detailing the military campaigns, social integration, and early governance of the Umayyad and Abbasid Caliphates.
 
-## Global Frameworks I: The Post-Classical World (c. 300–1000)
+### The Central Middle Ages: Systems of Power, Faith, and Learning (c. 1000–1300)
 
-_Continuity, collapse, and transformation across Eurasia_
+This module covers European feudal institutions, economic revival, papal authority, the Crusades in the Levant, classical Islamic jurisprudence, and the rise of scholastic learning and universities.
 
-| Subject | Resource | Online Course |
-| --- | --- | --- |
-| Late Antiquity (Comparative) | **[Peter Brown, _The World of Late Antiquity_](https://archive.org/details/worldoflateantiq0000brow)** | **[Yale HIST 210: The Early Middle Ages, 284–1000](https://oyc.yale.edu/history/hist-210)** |
-| Roman, Persian & Han Legacies | **[Chris Wickham, _Inheritance of Rome_](https://archive.org/details/inheritanceofrom0000wick)** | **[Yale HIST 210](https://oyc.yale.edu/history/hist-210)** |
-| Byzantium Emerges | **[Judith Herrin, _Byzantium_](https://archive.org/details/byzantiumsurpris0000herr)** | **[Yale HIST 210 lectures on Byzantium](https://oyc.yale.edu/history/hist-210/lecture-18)** |
-| Rise of Islam | **[Hugh Kennedy, _The Great Arab Conquests_](https://archive.org/details/greatarabconques0000kenn)** | **[Yale HIST 210](https://oyc.yale.edu/history/hist-210)** |
-| South Asia after Gupta | **[Romila Thapar, _Early India_](https://archive.org/details/earlyindiafromor00thap)** |  |
-| Tang Dynasty China | **Mark Edward Lewis, _China's Cosmopolitan Empire: The Tang Dynasty_** (Harvard University Press) | **[Harvard ChinaX](https://www.edx.org/chinax-chinas-past-present-future)** |
+[The Making of Europe: Conquest, Colonization and Cultural Change, 950–1350 (Robert Bartlett)](https://archive.org/details/isbn_9780140154092) - The core institutional baseline for the Central Middle Ages, demonstrating how military conquest, chivalric culture, and legal homogenization expanded Latin Christendom to the European periphery.
 
-## Global Frameworks II: Systems of Power and Belief (c. 1000–1300)
+[Western Society and the Church in the Middle Ages (R.W. Southern)](https://archive.org/details/westernsocietych0000sout) - Complements Bartlett's secular statecraft by exploring the parallel development of papal administrative authority, monastic reform movements, and popular religious life.
 
-_Expansion, institutionalization, and cross-cultural contact_
+[The Crusades: The Authoritative History of the War for the Holy Land (Thomas Asbridge)](https://archive.org/details/crusadesauthorit0000asbr) - Builds directly on Bartlett's and Southern's analyses of outward Latin expansion and religious zeal, providing a balanced account of military campaigns and cross-cultural encounters in the Levant.
 
-| Subject | Resource |
-| --- | --- |
-| Kingship, Statecraft & Expansion | **[Robert Bartlett, _The Making of Europe: Conquest, Colonization and Cultural Change, 950–1350_](https://archive.org/details/isbn_9780140154092)** |
-| Crusades & Mediterranean Encounters | **[Thomas Asbridge, _The Crusades: The Authoritative History of the War for the Holy Land_](https://archive.org/details/crusadesauthorit0000asbr)** |
-| Church, Papacy & Monasticism | **[R.W. Southern, _Western Society and the Church in the Middle Ages_](https://archive.org/details/westernsocietych0000sout)** (Penguin Books) |
-| Law & Governance | **[Wael Hallaq, _An Introduction to Islamic Law_](https://archive.org/details/introductiontois0000hall)** |
-| Confucian Revival | **Peter Bol, _Neo-Confucianism in History_** (Harvard University Press) |
-| Education & Knowledge | **[George Makdisi, _The Rise of Colleges_](https://archive.org/details/riseofcollegesin0000makd)** |
+[An Introduction to Islamic Law (Wael B. Hallaq)](https://archive.org/details/introductiontois0000hall) - Acts as a non-Western institutional counterpart to Southern's church history, detailing how legal schools, judicial courts, and religious jurisprudence structured medieval Islamic societies.
 
-## Global Frameworks III: Crisis, Plague, and Transformation (c. 1300–1500)
+[Medieval Foundations of the Western Intellectual Tradition, 400–1400 (Marcia L. Colish)](https://archive.org/details/medievalfoundati0000coli) - Best studied after grasping the institutional frameworks of Bartlett and Southern; synthesizes the rise of scholastic disputation, universities, and philosophical dialogue across Latin, Byzantine, and Arabic traditions.
 
-_Demographic shock, prolonged warfare, and the late medieval transition_
+### The Late Middle Ages: Crisis, Plague, and Transformation (c. 1300–1500)
 
-| Subject | Resource |
-| --- | --- |
-| The Black Death & 14th-Century Crisis | **[John Aberth, _The Black Death: The Great Mortality of 1348–1350: A Brief History with Documents_](https://archive.org/details/blackdeathgreatm0000aber)** (Bedford/St. Martin's) |
-| Climate, Economy & Demography | **Bruce M. S. Campbell, _The Great Transition: Climate, Disease and Society in the Late-Medieval World_** (Cambridge University Press) |
-| Late Medieval Statecraft & Warfare | **[John Watts, _The Making of Polities: Europe, 1300–1500_](https://archive.org/details/makingofpolities0000watt)** |
-| Ottoman Expansion & Byzantine Fall | **[Caroline Finkel, _Osman's Dream: The History of the Ottoman Empire_](https://archive.org/details/osmansdreamstory0000fink)** (Basic Books) |
+This module investigates the systemic shocks of the fourteenth and fifteenth centuries, including environmental change, the Black Death, prolonged warfare, ecclesiastical fragmentation, and the fall of Constantinople.
 
-## Connected Worlds: Trade, Travel, and Exchange
+[The Black Death: The Great Mortality of 1348–1350: A Brief History with Documents (John Aberth)](https://archive.org/details/blackdeathgreatm0000aber) - The foundational entry point for this module, combining an accessible narrative with translated contemporary testimonies to examine the immediate demographic, social, and psychological shock of the pandemic.
 
-_Afro-Eurasian connectivity, exchange, and empire building_
+[The Great Transition: Climate, Disease and Society in the Late-Medieval World (Bruce M. S. Campbell)](https://books.google.com/books?isbn=9780521144438) - Expands on Aberth's plague focus by situating the pandemic within a broader multi-disciplinary framework of climatic cooling, agrarian harvest crises, and macroeconomic contraction across Eurasia.
 
-| Subject | Resource |
-| --- | --- |
-| Silk Roads | **Valerie Hansen, _The Silk Road_** |
-| Indian Ocean World | **[K.N. Chaudhuri, _Trade and Civilisation in the Indian Ocean_](https://archive.org/details/tradecivilisatio00chau)** |
-| Nomads & Empires | **[Thomas Barfield, _The Perilous Frontier_](https://archive.org/details/perilousfrontier0000barf)** |
-| Mongol Eurasia | **Timothy May, _The Mongol Conquests_** |
-| Primary Source Repositories | **[Internet Medieval Sourcebook](https://sourcebooks.fordham.edu/sbook.asp)** (Fordham Center for Medieval Studies) |
+[The Making of Polities: Europe, 1300–1500 (John Watts)](https://archive.org/details/makingofpolities0000watt) - Builds on the socioeconomic disruptions outlined by Campbell, examining how endemic warfare, representative assemblies, and factional politics drove the consolidation of late medieval sovereign states.
 
-# Code of conduct
+[Osman's Dream: The History of the Ottoman Empire (Caroline Finkel)](https://archive.org/details/osmansdreamstory0000fink) - Complements Watts's Western European focus by tracing the disintegration of the Byzantine state and the rise of the early Ottoman Empire as the dominant imperial power in southeastern Europe and Anatolia.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+### Connected Worlds: Afro-Eurasian Trade, Travel, and Nomadic Empires
+
+This module explores the global connections linking medieval civilizations, focusing on caravan routes across Central Asia, maritime trade across the Indian Ocean, and the political impact of the Mongol Empire.
+
+[The Silk Road: A New History (Valerie Hansen)](https://books.google.com/books?isbn=9780190218423) - The primary study of overland Eurasian connectivity, utilizing archaeological records from Central Asian oasis settlements to examine trade mechanics, refugee movements, and cultural diffusion.
+
+[Trade and Civilisation in the Indian Ocean: An Economic History from the Rise of Islam to 1750 (K.N. Chaudhuri)](https://archive.org/details/tradecivilisatio00chau) - Serves as the maritime counterpart to Hansen's overland focus, analyzing the seasonal monsoon routes, port cities, and commercial diasporas linking the Middle East, India, and China.
+
+[The Perilous Frontier: Nomadic Empires and China (Thomas J. Barfield)](https://archive.org/details/perilousfrontier0000barf) - Establishes the theoretical anthropological framework for understanding pastoral nomadism, explaining how steppe confederations organized politically to interact with and extract wealth from sedentary agrarian empires.
+
+[The Mongol Conquests in World History (Timothy May)](https://books.google.com/books?isbn=9781861898678) - Applies the nomadic dynamics explored in Barfield, showing how the unified thirteenth-century Mongol Empire integrated Eurasian commerce, diplomatic exchange, and administrative techniques across regions.

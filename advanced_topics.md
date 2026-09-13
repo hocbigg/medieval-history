@@ -1,66 +1,81 @@
-# Advanced Topics
+# Advanced Topics: Medieval History
 
-- [Manuscript Studies, Paleography, and Textual Scholarship](#manuscript-studies-paleography-and-textual-scholarship)
-- [Medieval Intellectual History, Philosophy, and Science](#medieval-intellectual-history-philosophy-and-science)
-- [Social Hierarchies, Gender, and Marginality](#social-hierarchies-gender-and-marginality)
-- [Environmental History, Paleoclimatology, and Bioarchaeology](#environmental-history-paleoclimatology-and-bioarchaeology)
-- [The Global Middle Ages and Frontier Dynamics](#the-global-middle-ages-and-frontier-dynamics)
-- [Scholarly Craft & Ongoing Reference](#scholarly-craft--ongoing-reference)
+Specialized subfields: Learners are expected to choose one or two tracks aligned with their interests and critical goals rather than attempting to complete every track.
 
-### Specialization Tracks Overview
+- **Manuscript Studies, Paleography, and Codicology:** Equips researchers with technical auxiliary sciences to decipher pre-modern handwriting, analyze codex materiality, evaluate diplomatic charters, and reconstruct dispersed manuscript fragments.
+- **Medieval Intellectual History, Philosophy, and Science:** Explores scholastic disputation, Graeco-Arabic translation movements, Islamic and Jewish philosophy, natural science, and theological aesthetics.
+- **Social Hierarchies, Gender, and Marginality:** Investigates non-elite lives, agrarian microhistories, women's legal and economic agency, and the institutional mechanisms of heresy and minority persecution.
+- **Environmental History, Paleoclimatology, and Bioarchaeology:** Integrates paleoclimate proxies, landscape archaeology, skeletal bioarchaeology, and ancient pathogen genomics with archival historical analysis.
+- **The Global Middle Ages and Frontier Dynamics:** Analyzes polycentric Afro-Eurasian trade systems, West African imperial statecraft, Inner Asian nomadic hegemonies, and maritime oceanic connectivity.
 
-- **Manuscript Studies, Paleography, and Textual Scholarship:** Equips researchers with the technical auxiliary sciences to decipher original scripts, date codices, and reconstruct manuscript lineages.
-- **Medieval Intellectual History, Philosophy, and Science:** Explores scholastic disputation, Graeco-Arabic translation movements, Islamic and Jewish philosophy, and natural science.
-- **Social Hierarchies, Gender, and Marginality:** Investigates non-elite lives, microhistories, gender construction, and institutional mechanisms of heresy and persecution.
-- **Environmental History, Paleoclimatology, and Bioarchaeology:** Integrates paleoclimate proxies, landscape archaeology, and ancient pathogen genomics with archival data.
-- **The Global Middle Ages and Frontier Dynamics:** Traces trans-Eurasian and African interconnected systems, nomadic imperial statecraft, and cross-cultural contact zones.
+## Manuscript Studies, Paleography, and Codicology
 
-## Manuscript Studies, Paleography, and Textual Scholarship
+This track develops the technical competencies necessary to access, transcribe, date, and physically evaluate medieval handwritten books and archival documentary records.
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Latin Paleography & Script Evolution | Reading primary archival records requires mastering script lineages, scribal ligatures, and abbreviations from Late Roman cursive to Gothic hands. | Bernhard Bischoff, _Latin Palaeography: Antiquity and the Middle Ages_ (Cambridge University Press) |
-| Codicology & Material Culture | Analyzes the physical construction of medieval books (parchment preparation, quire collation, ruling, binding) to contextualize text production. | **[Raymond Clemens & Timothy Graham, _Introduction to Manuscript Studies_](https://archive.org/details/introductiontoma0000clem_g8i8)** |
-| Diplomatics & Archival Criticism | Establishes the authenticity, legal authority, and diplomatic formulas of medieval charters, papal bulls, and imperial chanceries. | Leonard E. Boyle, _Medieval Latin Palaeography: A Bibliographical Introduction_ (University of Toronto Press) |
-| Digital Humanities & Fragmentology | Leverages IIIF image standards and open digital platforms to identify, reconstruct, and transcribe dispersed medieval manuscript leaves. | **[Fragmentarium: Digital Research Lab for Medieval Manuscript Fragments](https://fragmentarium.ms)** |
+Latin Paleography & Script Evolution: [Latin Paleography (HMML School)](https://hmmlschool.org/latin/) - An interactive pedagogical platform teaching the development and transcription of Latin scripts from Late Antiquity through Humanist book hands using high-resolution manuscript facsimiles.
+
+Latin Paleography & Script Evolution: [Latin Palaeography: Antiquity and the Middle Ages (Bernhard Bischoff)](https://books.google.com/books?isbn=9780521367264) - The canonical academic reference manual tracing the morphology, regional variations, and scribal conventions of Latin handwriting across medieval Europe.
+
+Codicology & Material Book Production: [Introduction to Manuscript Studies (Raymond Clemens & Timothy Graham)](https://archive.org/details/introductiontoma0000clem_g8i8) - A foundational, heavily illustrated guide detailing the physical anatomy of the codex, parchment preparation, gathering structures, illumination methods, and binding.
+
+Diplomatics & Archival Analysis: [Reading Old Documents: Latin Palaeography Tutorial (The National Archives)](https://www.nationalarchives.gov.uk/help-with-your-research/reading-old-documents/) - A practical, interactive tutorial teaching the transcription, formulaic structures, legal phrasing, and dating conventions of medieval administrative charters and rolls.
+
+Digital Humanities & Fragmentology: [Fragmentarium: Digital Research Laboratory for Medieval Manuscript Fragments](https://fragmentarium.ms) - An open digital research platform and laboratory utilizing IIIF standards to locate, catalog, and virtually piece together dismembered medieval manuscript leaves.
 
 ## Medieval Intellectual History, Philosophy, and Science
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Scholastic Logic & Metaphysics | Examines how university disputations synthesized Aristotelian logic with Christian theology, shaping Western epistemological categories. | **[Edward Grant, _God and Reason in the Middle Ages_](https://archive.org/details/godreasoninmiddl0000gran)**<br>- **[Robert Pasnau & Christina van Dyke (eds.), _The Cambridge History of Medieval Philosophy_](https://archive.org/details/cambridgehistory0002unse_y2s9)** |
-| Islamic Philosophy (*Falsafa*) & *Kalam* | Traces the translation, critique, and transformation of Hellenistic philosophy in Baghdad, Cordoba, and Cairo by thinkers such as Ibn Sina and Ibn Rushd. | **[Dimitri Gutas, _Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad_](https://archive.org/details/greekthoughtarab0000guta_v3l3)**<br>- **[Stanford Encyclopedia of Philosophy: Medieval Philosophy](https://plato.stanford.edu/entries/medieval-philosophy/)** |
-| Natural Philosophy, Cosmology & Medicine | Explores medieval empirical observation, humoral medicine, optics, and astronomical models across Latin, Byzantine, and Islamic traditions. | **[David Lindberg, _The Beginnings of Western Science_](https://archive.org/details/beginningsofwest00lind)** |
+This track examines the philosophical debates, institutional frameworks of higher learning, translation movements, and scientific theories that shaped intellectual life across Christendom and the Islamic world.
+
+Scholastic Logic & University Disputation: [Medieval Philosophy (Peter Adamson / History of Philosophy Without Any Gaps)](https://historyofphilosophy.net/series/medieval-philosophy) - A comprehensive, multi-part open lecture series analyzing scholastic debate, logic, and metaphysics from Carolingian thinkers through Abelard, Aquinas, Duns Scotus, and Ockham.
+
+Scholastic Logic & University Disputation: [God and Reason in the Middle Ages (Edward Grant)](https://books.google.com/books?isbn=9780521003377) - An essential study of how dialectical reasoning and natural philosophy were institutionalized within the medieval university curriculum.
+
+Philosophy & Theology in the Islamic World: [Philosophy in the Islamic World (Peter Adamson / History of Philosophy Without Any Gaps)](https://historyofphilosophy.net/series/islamic-world) - An in-depth lecture series tracing the Graeco-Arabic translation movement, *falsafa*, and *kalam*, highlighting figures like al-Kindi, Avicenna, al-Ghazali, Averroes, and Maimonides.
+
+Philosophy & Theology in the Islamic World: [Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad (Dimitri Gutas)](https://archive.org/details/greekthoughtarab0000guta_v3l3) - The authoritative socio-historical monograph on the political and cultural drivers of the massive translation of Greek science and philosophy into Arabic during the early Abbasid Caliphate.
+
+Natural Philosophy, Cosmology & Medicine: [The Beginnings of Western Science (David C. Lindberg)](https://archive.org/details/beginningsofwest00lind) - An overarching historical synthesis examining medieval optics, physics, astronomical models, and medical systems across the Latin West, Byzantium, and Islam.
+
+Cathedral Aesthetics & Intellectual Culture: [Age of Cathedrals (Yale University / Howard Bloch)](https://www.coursera.org/learn/age-of-cathedrals) - A structured university course that connects the architectural innovation of Gothic cathedrals with urban growth, scholastic theology, and twelfth-century intellectual transformations.
 
 ## Social Hierarchies, Gender, and Marginality
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Peasant Economies & Microhistory | Uncovers the daily routines, customary rights, and lived mentalities of non-elite agrarian populations through microhistorical analysis. | **[Emmanuel Le Roy Ladurie, _Montaillou: The Promised Land of Error_](https://archive.org/details/montailloupromis0000lero)**<br>- **[Chris Wickham, _Framing the Early Middle Ages_](https://archive.org/details/framingearlymidd0000wick)** |
-| Gender, Sexuality & Female Authority | Critiques patriarchal legal frameworks by analyzing female agency, domestic labor, bodily autonomy, and women's mystical writings. | **[Judith Bennett, _Women in the Medieval English Countryside_](https://archive.org/details/womeninmedievale0000benn)** |
-| Persecution, Heresy & Minority Relations | Investigates how emerging bureaucratic states and church authorities constructed deviance to suppress Cathars, Jews, and other minority groups. | **[R. I. Moore, _The Formation of a Persecuting Society: Authority and Deviance in Western Europe, 950–1250_](https://archive.org/details/formationofperse00moor)**<br>- [David Nirenberg, _Communities of Violence: Persecution of Minorities in the Middle Ages_](https://archive.org/details/communitiesofvio0000nire) (Princeton University Press) |
+This track investigates daily life beyond the ruling aristocracy, focusing on peasant communities, gendered divisions of labor, and the social and legal mechanisms used to marginalize dissenters and minority populations.
+
+Peasant Microhistory & Everyday Mentality: [Montaillou: The Promised Land of Error (Emmanuel Le Roy Ladurie)](https://archive.org/details/montailloupromis0000lero) - A classic microhistory utilizing inquisition trial records to reconstruct the intimate daily lives, religious mentalities, and social tensions of a fourteenth-century Occitan village.
+
+Agrarian Social Structure & Peasant Autonomy: [Framing the Early Middle Ages: Europe and the Mediterranean, 400–800 (Chris Wickham)](https://archive.org/details/framingearlymidd0000wick) - A rigorous comparative economic analysis demonstrating how peasant autonomy and aristocratic wealth varied across post-Roman Western Europe and the Mediterranean.
+
+Gender, Labor & Rural Communities: [Women in the Medieval English Countryside (Judith M. Bennett)](https://archive.org/details/womeninmedievale0000benn) - A seminal archival study utilizing manorial court rolls to evaluate peasant women's economic contributions, life-cycle transitions, and legal disabilities in pre-plague England.
+
+Heresy, Magic & Inquisitorial Prosecution: [Magic in the Middle Ages (Universitat de Barcelona)](https://www.coursera.org/learn/magic-middle-ages) - An open university course investigating the blurred lines between learned ritual magic, popular folk customs, astrology, and church-driven heresy and witchcraft persecutions.
+
+The Persecuting Society & Minority Relations: [The Formation of a Persecuting Society: Authority and Deviance in Western Europe, 950–1250 (R. I. Moore)](https://archive.org/details/formationofperse00moor) - The foundational historiographical work showing how centralizing monarchies and church bureaucracies systematically manufactured deviance to suppress heretics, Jews, and lepers.
+
+The Persecuting Society & Minority Relations: [Communities of Violence: Persecution of Minorities in the Middle Ages (David Nirenberg)](https://archive.org/details/communitiesofvio0000nire) - Demonstrates through Fourteenth-century Iberian archival evidence how systemic and ritualized violence against Jews, Muslims, and lepers was integrated into normal civic coexistence.
 
 ## Environmental History, Paleoclimatology, and Bioarchaeology
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Climate Shocks & Ecological Transitions | Integrates tree-ring, ice-core, and speleothem data to evaluate how the Medieval Climate Anomaly and Little Ice Age influenced food security. | Bruce M. S. Campbell, _The Great Transition: Climate, Disease and Society in the Late-Medieval World_ (Cambridge University Press) |
-| Agrarian Ecosystems & Resource Regimes | Analyzes how woodland management, drainage systems, and watermills reshaped European and Mediterranean landscapes. | [Richard C. Hoffmann, _An Environmental History of Medieval Europe_](https://archive.org/details/environmentalhis0000hoff) (Cambridge University Press) |
-| Historical Bioarchaeology & Ancient DNA | Uses ancient DNA (*Yersinia pestis*) and skeletal remains to track the epidemiology, mortality profiles, and evolutionary paths of medieval pandemics. | [Monica H. Green (ed.), _Pandemic Disease in the Medieval World: Rethinking the Black Death_](https://scholarworks.wmich.edu/medieval_globe/1) (Arc Humanities Press / The Medieval Globe) |
+This track introduces scientific and archaeological methodologies used to reconstruct past environmental shocks, settlement ecologies, demographic trends, and ancient disease transmission.
+
+Medieval Environmental Systems & Ecosystem Change: [An Environmental History of Medieval Europe (Richard C. Hoffmann)](https://archive.org/details/environmentalhis0000hoff) - The definitive field survey exploring the interactions between humans, animal populations, soil depletion, woodland management, fisheries, and changing climatic conditions from 500 to 1500.
+
+Landscape Archaeology & Settlement Patterns: [Medieval Life: Archaeology and the Life Course (Roberta Gilchrist)](https://books.google.com/books?isbn=9781843837220) - Uses material culture, grave goods, spatial analysis, and excavated settlements to examine how lived experience, bodily health, and spatial hierarchies intersected in medieval daily life.
+
+Paleopathology & Ancient Pathogen Genomics: [Pandemic Disease in the Medieval World: Rethinking the Black Death (Monica H. Green, ed.)](https://scholarworks.wmich.edu/medieval_globe/1) - An open-access volume uniting geneticists, bioarchaeologists, and historians to re-evaluate the origins, global spread, and *Yersinia pestis* aDNA lineages of the Second Plague Pandemic.
+
+Skeletal Bioarchaeology & Paleodietary Reconstruction: [Bioarchaeology: Interpreting Behavior from the Human Skeleton (Clark Spencer Larsen)](https://books.google.com/books?isbn=9780521838696) - A comprehensive guide to the biological and osteological methods used to reconstruct workload stress, malnutrition, dental pathology, and isotopic diet profiles from human skeletal remains.
 
 ## The Global Middle Ages and Frontier Dynamics
 
-| Topic | Why Study | Resources |
-| --- | --- | --- |
-| Afro-Eurasian World Systems | Demonstrates how integrated commercial, fiscal, and shipping circuits operated from the Mediterranean to the South China Sea before European hegemony. | **[Janet Abu-Lughod, _Before European Hegemony: The World System A.D. 1250–1350_](https://archive.org/details/beforeeuropehehe0000abul)** |
-| Medieval African Empires | Assesses political sophistication, trans-Saharan trade systems, and Islamic scholarly centers in the Ghana, Mali, and Songhay empires. | Michael A. Gomez, _African Dominion: A New History of Empire in Early and Medieval West Africa_ (Princeton University Press) |
-| Steppe Statecraft & Nomadic Networks | Studies how pastoral nomads engineered complex steppe empires and bureaucratic apparatuses that reshaped Eurasian diplomacy. | **[Thomas Barfield, _The Perilous Frontier: Nomadic Empires and China_](https://archive.org/details/perilousfrontier0000barf)**<br>- **[Timothy Brook, _The Troubled Empire: China in the Yuan-Ming Dynasties_](https://archive.org/details/troubledempirewa0000broo)** |
-| Connected Histories & Early Modern Roots | Explores the diplomatic, intellectual, and trade continuities bridging the late medieval Mediterranean and Indian Ocean worlds into the modern era. | **[Sanjay Subrahmanyam, _Explorations in Connected History: From the Tagus to the Ganges_](https://archive.org/details/explorationsinco0000subr)** |
+This track explores cross-cultural interactions, commercial world systems, and nomadic state formation outside traditional Eurocentric boundaries between the sixth and sixteenth centuries.
 
-## Scholarly Craft & Ongoing Reference
+Afro-Eurasian World Systems: [Before European Hegemony: The World System A.D. 1250–1350 (Janet L. Abu-Lughod)](https://archive.org/details/beforeeuropehehe0000abul) - A landmark global economic history mapping the eight interlocking commercial circuits that integrated China, India, the Middle East, and Europe prior to western dominance.
 
-Use these critical resources to guide advanced research, historiographical argumentation, and engagement with critical editions:
+Medieval West African Empires: [African Dominion: A New History of Empire in Early and Medieval West Africa (Michael A. Gomez)](https://books.google.com/books?isbn=9780691177427) - An award-winning monograph tracing trans-Saharan trade routes, Islamic statecraft, and political centralisation across the Ghana, Mali, and Songhay empires.
 
-- **[Marc Bloch, _The Historian's Craft_](https://archive.org/details/historianscraft0000bloc):** The foundational treatise on historical inquiry, cross-examination of testimony, and historical criticism.
-- **[Anthony Grafton, _The Footnote: A Curious History_](https://archive.org/details/footnotecurioush0000graf):** An indispensable history of scholarly apparatus, citation standards, and source verification.
-- **[Monumenta Germaniae Historica (MGH)](https://www.mgh.de):** The gold standard of critical editions and source publications for medieval texts and historical charters.
+Inner Asian Steppe Hegemonies: [Empires of the Silk Road: A History of Central Eurasia from the Bronze Age to the Present (Christopher I. Beckwith)](https://books.google.com/books?isbn=9780691135892) - A comprehensive reinterpretation of Central Eurasian history, emphasizing the sophisticated economic structures, diplomacy, and military institutions of nomadic steppe confederations.
+
+Indian Ocean Maritime Networks: [Monsoon Islam: Trade and Faith on the Medieval Malabar Coast (Sebastian R. Prange)](https://books.google.com/books?isbn=9781108424387) - Examines oceanic commerce, diaspora port enclaves, and merchant-driven religious developments across the medieval Indian Ocean rim.
+
+Global Medieval Frameworks & Methodologies: [The Global Middle Ages (Catherine Holmes & Naomi Standen, eds.)](https://academic.oup.com/past/issue/238/suppl_13) - An open-access collaborative collection examining connectivity, mobility, recording cultures, and comparative global frameworks across pre-1500 Afro-Eurasia and the Americas.
