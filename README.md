@@ -5,15 +5,34 @@ description: Path to a free self-taught education in Medieval History!
 
 ## Introduction
 
-The Medieval History curriculum is a **complete education in Medieval History** using online materials.
+Medieval history spans the millennium between the collapse of classical antiquity and the emergence of the early modern world (roughly 300 to 1500 CE). Far from being a static "Dark Age," this era witnessed the reinvention of imperial governance, the rise and consolidation of world religions, the birth of universities and common legal codes, and widespread urbanization. Crucially, modern scholarship does not treat the medieval past as an isolated history of Western European feudalism. Instead, this curriculum examines the medieval world through the three distinct civilizations that inherited the Roman Mediterranean—Latin Christendom, the Byzantine Empire, and the Islamic Caliphates—alongside the nomadic confederations and trade routes that connected Afro-Eurasia.
 
-## Communities
+This curriculum is designed for self-directed learners coming to the discipline with no prior background. You do not need formal training in historical methods, nor do you need to read classical or medieval languages like Latin, Greek, or Arabic. All included texts, source readers, and lecture series rely on accessible English translations and guided commentary.
+
+### How to Navigate the Curriculum
+
+The curriculum is structured into five core modules designed to be tackled in a deliberate sequence:
+
+- **Start with the foundations:** Begin with *Foundations of Medieval History and Historiography*. This module pairs a narrative survey with a primary source reader and a guide to historical method, giving you the chronological framework, spatial geography, and analytical tools necessary to make sense of medieval evidence.
+- **Follow the chronological core:** Proceed through the three chronological frameworks in order—*The Early Middle Ages (c. 300–1000)*, *The Central Middle Ages (c. 1000–1300)*, and *The Late Middle Ages (c. 1300–1500)*. Because institutions like papal administration, feudal obligations, scholastic philosophy, and imperial borders evolved cumulatively, working chronologically ensures you understand the causes behind later transformations and crises.
+- **Synthesize with trans-regional connectivity:** The final module, *Connected Worlds: Afro-Eurasian Trade, Travel, and Nomadic Empires*, can be studied as a capstone or read in parallel with the chronological modules. It steps back from regional politics to examine the overland Silk Roads, Indian Ocean maritime routes, and pastoral steppe empires that integrated pre-modern Eurasia and Africa.
+
+### Scope
+
+This page covers only the shared, foundational knowledge that every student of medieval history needs before branching out into specialized research. It does not attempt to cover niche regional histories or technical research skills like manuscript paleography or diplomatics. 
+
+Once you have completed this foundational path, you can expand your studies using the other guides in this series:
+
+- Explore [Advanced Topics](advanced_topics.md) to dive into specialized subfields like manuscript studies and codicology, medieval intellectual history, non-elite social history, environmental bioarchaeology, and the Global Middle Ages.
+- Consult [Readings](extras/readings.md) for a curated bibliography of landmark primary chronicles, paradigm-shifting monographs, and influential historical essays.
+- Check [Courses](extras/courses.md) for full-length university lecture series, open courseware, and audio programs covering specific themes like medieval art and philosophy.
+
+### Communities
 
 - Forums:
     - [Historum](https://historum.com/)
     - [Res Historica](https://reshistorica.forumotion.com/)
     - [AlternateHistory.com](https://www.alternatehistory.com/forum/)
-    
 - Subreddits:
     - [r/history](https://www.reddit.com/r/history/)
     - [r/AskHistorians](https://www.reddit.com/r/AskHistorians/)
