@@ -1,173 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/medieval-history/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics: Medieval History</title>
+  <meta name="description" content="Advanced Topics: Medieval History curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/medieval-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/medieval-history/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics: Medieval History">
+  <meta property="og:description" content="Advanced Topics: Medieval History curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/medieval-history/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/medieval-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/medieval-history/">Medieval-History</a>
-<a href="/medieval-history/advanced_topics.html">Advanced Topics</a>
-<a href="/medieval-history/projects.html">Projects</a>
-<a href="/medieval-history/extras/courses.html">Extra Courses</a>
-<a href="/medieval-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/medieval-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/medieval-history/">Medieval History</a></li>
+      <li><a href="/medieval-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/medieval-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/medieval-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/medieval-history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="advanced-topics">Advanced Topics</h1>
+  <main id="main-content">
+    <article>
+
+<h1 id="advanced-topics-medieval-history">Advanced Topics: Medieval History</h1>
+<p>Specialized subfields: Learners are expected to choose one or two tracks aligned with their interests and critical goals rather than attempting to complete every track.</p>
 <ul>
-<li><a href="#crisis-and-transformation-c-13001500">Crisis and Transformation c. 1300–1500</a></li>
-<li><a href="#advanced-comparative-themes">Advanced Comparative Themes</a><ul>
-<li><a href="#intellectual--religious-traditions">Intellectual &amp; Religious Traditions</a></li>
-<li><a href="#social--cultural-worlds">Social &amp; Cultural Worlds</a></li>
-<li><a href="#material-environmental--archaeological-history">Material, Environmental &amp; Archaeological History</a></li>
+<li><strong>Manuscript Studies, Paleography, and Codicology:</strong> Equips researchers with technical auxiliary sciences to decipher pre-modern handwriting, analyze codex materiality, evaluate diplomatic charters, and reconstruct dispersed manuscript fragments.</li>
+<li><strong>Medieval Intellectual History, Philosophy, and Science:</strong> Explores scholastic disputation, Graeco-Arabic translation movements, Islamic and Jewish philosophy, natural science, and theological aesthetics.</li>
+<li><strong>Social Hierarchies, Gender, and Marginality:</strong> Investigates non-elite lives, agrarian microhistories, women's legal and economic agency, and the institutional mechanisms of heresy and minority persecution.</li>
+<li><strong>Environmental History, Paleoclimatology, and Bioarchaeology:</strong> Integrates paleoclimate proxies, landscape archaeology, skeletal bioarchaeology, and ancient pathogen genomics with archival historical analysis.</li>
+<li><strong>The Global Middle Ages and Frontier Dynamics:</strong> Analyzes polycentric Afro-Eurasian trade systems, West African imperial statecraft, Inner Asian nomadic hegemonies, and maritime oceanic connectivity.</li>
 </ul>
-</li>
-<li><a href="#scholarly-craft-ongoing-reference">Scholarly Craft Ongoing Reference</a></li>
-</ul>
-<p>Choose one from these tracks:</p>
-<ul>
-<li>
-<p><strong>Crisis and Transformation (c. 1300–1500)</strong><br />
-  Focuses on the major upheavals and changes that closed the medieval period. Recommended for most learners as a natural continuation of the core.</p>
-</li>
-<li>
-<p><strong>Advanced Comparative Themes</strong><br />
-  This is divided into three separate sub-tracks. Choose one (or more) depending on what excites you most:</p>
-</li>
-<li>Intellectual &amp; Religious Traditions: for people interested in ideas, philosophy, theology, and the history of knowledge</li>
-<li>Social &amp; Cultural Worlds: for those curious about everyday life, gender, peasants, cities, and non-elite people</li>
-<li>Material, Environmental &amp; Archaeological History: for readers drawn to technology, landscapes, climate, and physical evidence</li>
-</ul>
-<p><strong>Scholarly Craft (Ongoing Reference)</strong>: Use these two short works whenever you need help reading, writing, or understanding how historians produce their work. Dip into them at any time during or after the core.</p>
-<h2 id="crisis-and-transformation-c-13001500">Crisis and Transformation (c. 1300–1500)</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Climate &amp; Plague</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.cambridge.org/core/books/great-transition/8A2E4E4F4E4F4E4F4E4F4E4F">Bruce Campbell, <em>The Great Transition</em></a></strong> (Cambridge)</td>
-</tr>
-<tr>
-<td>Late Medieval States</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/medievaloriginso0000stra">Joseph Strayer, <em>On the Medieval Origins of the Modern State</em></a></strong></td>
-</tr>
-<tr>
-<td>Yuan–Ming Transition</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/troubledempirewa0000broo">Timothy Brook, <em>The Troubled Empire</em></a></strong></td>
-</tr>
-<tr>
-<td>Ottoman, Safavid, Mughal Roots</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/explorationsinco0000subr">Sanjay Subrahmanyam, <em>Explorations in Connected History</em></a></strong></td>
-</tr>
-<tr>
-<td>End(s) of the Middle Ages</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/birthofeurope0000lego">Jacques Le Goff, <em>The Birth of Europe</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="advanced-comparative-themes">Advanced Comparative Themes</h2>
-<h3 id="intellectual-religious-traditions">Intellectual &amp; Religious Traditions</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Scholasticism &amp; Kalam</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.cambridge.org/core/books/god-and-reason-in-the-middle-ages/">Edward Grant, <em>God and Reason in the Middle Ages</em></a></strong> (Cambridge)</td>
-</tr>
-<tr>
-<td>Medieval Philosophy (Global)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://plato.stanford.edu/entries/medieval-philosophy/">Stanford Encyclopedia of Philosophy – Medieval Sections</a></strong></td>
-</tr>
-<tr>
-<td>Science &amp; Medicine</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/beginningsofwest0000lind">David Lindberg, <em>The Beginnings of Western Science</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="social-cultural-worlds">Social &amp; Cultural Worlds</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Peasants &amp; Non-Elites</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/framingearlymidd0000wick">Chris Wickham, <em>Framing the Early Middle Ages</em></a></strong></td>
-</tr>
-<tr>
-<td>Gender &amp; Family</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/womeninmedievale0000benn">Judith Bennett, <em>Women in the Medieval English Countryside</em></a></strong></td>
-</tr>
-<tr>
-<td>Urban Life</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/beforeeuropehehe0000abul">Janet Abu-Lughod, <em>Before European Hegemony</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="material-environmental-archaeological-history">Material, Environmental &amp; Archaeological History</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Medieval Archaeology</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/medievalarchaeol0000wick">Chris Wickham, <em>Medieval Archaeology</em></a></strong></td>
-</tr>
-<tr>
-<td>Technology</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/medievaltechnolo0000whit">Lynn White Jr., <em>Medieval Technology and Social Change</em></a></strong></td>
-</tr>
-<tr>
-<td>Landscape &amp; Environment</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/environmentalhis0000hoff">Richard Hoffmann, <em>An Environmental History of Medieval Europe</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="scholarly-craft-ongoing-reference">Scholarly Craft (Ongoing Reference)</h2>
-<ul>
-<li><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/historianscraft0000bloc">Marc Bloch, <em>The Historian’s Craft</em></a></strong> (Archive.org)</li>
-<li><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/footnotecurioush0000graf">Anthony Grafton, <em>Footnote: A Curious History</em></a></strong></li>
-</ul>
-</article>
-</main>
+<h2 id="manuscript-studies-paleography-and-codicology">Manuscript Studies, Paleography, and Codicology</h2>
+<p>This track develops the technical competencies necessary to access, transcribe, date, and physically evaluate medieval handwritten books and archival documentary records.</p>
+<p>Latin Paleography &amp; Script Evolution: <a href="https://hmmlschool.org/latin/" target="_blank" rel="noopener noreferrer">Latin Paleography (HMML School)</a> - An interactive pedagogical platform teaching the development and transcription of Latin scripts from Late Antiquity through Humanist book hands using high-resolution manuscript facsimiles.</p>
+<p>Latin Paleography &amp; Script Evolution: <a href="https://books.google.com/books?isbn=9780521367264" target="_blank" rel="noopener noreferrer">Latin Palaeography: Antiquity and the Middle Ages (Bernhard Bischoff)</a> - The canonical academic reference manual tracing the morphology, regional variations, and scribal conventions of Latin handwriting across medieval Europe.</p>
+<p>Codicology &amp; Material Book Production: <a href="https://archive.org/details/introductiontoma0000clem_g8i8" target="_blank" rel="noopener noreferrer">Introduction to Manuscript Studies (Raymond Clemens &amp; Timothy Graham)</a> - A foundational, heavily illustrated guide detailing the physical anatomy of the codex, parchment preparation, gathering structures, illumination methods, and binding.</p>
+<p>Diplomatics &amp; Archival Analysis: <a href="https://www.nationalarchives.gov.uk/help-with-your-research/reading-old-documents/" target="_blank" rel="noopener noreferrer">Reading Old Documents: Latin Palaeography Tutorial (The National Archives)</a> - A practical, interactive tutorial teaching the transcription, formulaic structures, legal phrasing, and dating conventions of medieval administrative charters and rolls.</p>
+<p>Digital Humanities &amp; Fragmentology: <a href="https://fragmentarium.ms" target="_blank" rel="noopener noreferrer">Fragmentarium: Digital Research Laboratory for Medieval Manuscript Fragments</a> - An open digital research platform and laboratory utilizing IIIF standards to locate, catalog, and virtually piece together dismembered medieval manuscript leaves.</p>
+<h2 id="medieval-intellectual-history-philosophy-and-science">Medieval Intellectual History, Philosophy, and Science</h2>
+<p>This track examines the philosophical debates, institutional frameworks of higher learning, translation movements, and scientific theories that shaped intellectual life across Christendom and the Islamic world.</p>
+<p>Scholastic Logic &amp; University Disputation: <a href="https://historyofphilosophy.net/series/medieval-philosophy" target="_blank" rel="noopener noreferrer">Medieval Philosophy (Peter Adamson / History of Philosophy Without Any Gaps)</a> - A comprehensive, multi-part open lecture series analyzing scholastic debate, logic, and metaphysics from Carolingian thinkers through Abelard, Aquinas, Duns Scotus, and Ockham.</p>
+<p>Scholastic Logic &amp; University Disputation: <a href="https://books.google.com/books?isbn=9780521003377" target="_blank" rel="noopener noreferrer">God and Reason in the Middle Ages (Edward Grant)</a> - An essential study of how dialectical reasoning and natural philosophy were institutionalized within the medieval university curriculum.</p>
+<p>Philosophy &amp; Theology in the Islamic World: <a href="https://historyofphilosophy.net/series/islamic-world" target="_blank" rel="noopener noreferrer">Philosophy in the Islamic World (Peter Adamson / History of Philosophy Without Any Gaps)</a> - An in-depth lecture series tracing the Graeco-Arabic translation movement, <em>falsafa</em>, and <em>kalam</em>, highlighting figures like al-Kindi, Avicenna, al-Ghazali, Averroes, and Maimonides.</p>
+<p>Philosophy &amp; Theology in the Islamic World: <a href="https://archive.org/details/greekthoughtarab0000guta_v3l3" target="_blank" rel="noopener noreferrer">Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad (Dimitri Gutas)</a> - The authoritative socio-historical monograph on the political and cultural drivers of the massive translation of Greek science and philosophy into Arabic during the early Abbasid Caliphate.</p>
+<p>Natural Philosophy, Cosmology &amp; Medicine: <a href="https://archive.org/details/beginningsofwest00lind" target="_blank" rel="noopener noreferrer">The Beginnings of Western Science (David C. Lindberg)</a> - An overarching historical synthesis examining medieval optics, physics, astronomical models, and medical systems across the Latin West, Byzantium, and Islam.</p>
+<p>Cathedral Aesthetics &amp; Intellectual Culture: <a href="https://www.coursera.org/learn/age-of-cathedrals" target="_blank" rel="noopener noreferrer">Age of Cathedrals (Yale University / Howard Bloch)</a> - A structured university course that connects the architectural innovation of Gothic cathedrals with urban growth, scholastic theology, and twelfth-century intellectual transformations.</p>
+<h2 id="social-hierarchies-gender-and-marginality">Social Hierarchies, Gender, and Marginality</h2>
+<p>This track investigates daily life beyond the ruling aristocracy, focusing on peasant communities, gendered divisions of labor, and the social and legal mechanisms used to marginalize dissenters and minority populations.</p>
+<p>Peasant Microhistory &amp; Everyday Mentality: <a href="https://archive.org/details/montailloupromis0000lero" target="_blank" rel="noopener noreferrer">Montaillou: The Promised Land of Error (Emmanuel Le Roy Ladurie)</a> - A classic microhistory utilizing inquisition trial records to reconstruct the intimate daily lives, religious mentalities, and social tensions of a fourteenth-century Occitan village.</p>
+<p>Agrarian Social Structure &amp; Peasant Autonomy: <a href="https://archive.org/details/framingearlymidd0000wick" target="_blank" rel="noopener noreferrer">Framing the Early Middle Ages: Europe and the Mediterranean, 400–800 (Chris Wickham)</a> - A rigorous comparative economic analysis demonstrating how peasant autonomy and aristocratic wealth varied across post-Roman Western Europe and the Mediterranean.</p>
+<p>Gender, Labor &amp; Rural Communities: <a href="https://archive.org/details/womeninmedievale0000benn" target="_blank" rel="noopener noreferrer">Women in the Medieval English Countryside (Judith M. Bennett)</a> - A seminal archival study utilizing manorial court rolls to evaluate peasant women's economic contributions, life-cycle transitions, and legal disabilities in pre-plague England.</p>
+<p>Heresy, Magic &amp; Inquisitorial Prosecution: <a href="https://www.coursera.org/learn/magic-middle-ages" target="_blank" rel="noopener noreferrer">Magic in the Middle Ages (Universitat de Barcelona)</a> - An open university course investigating the blurred lines between learned ritual magic, popular folk customs, astrology, and church-driven heresy and witchcraft persecutions.</p>
+<p>The Persecuting Society &amp; Minority Relations: <a href="https://archive.org/details/formationofperse00moor" target="_blank" rel="noopener noreferrer">The Formation of a Persecuting Society: Authority and Deviance in Western Europe, 950–1250 (R. I. Moore)</a> - The foundational historiographical work showing how centralizing monarchies and church bureaucracies systematically manufactured deviance to suppress heretics, Jews, and lepers.</p>
+<p>The Persecuting Society &amp; Minority Relations: <a href="https://archive.org/details/communitiesofvio0000nire" target="_blank" rel="noopener noreferrer">Communities of Violence: Persecution of Minorities in the Middle Ages (David Nirenberg)</a> - Demonstrates through Fourteenth-century Iberian archival evidence how systemic and ritualized violence against Jews, Muslims, and lepers was integrated into normal civic coexistence.</p>
+<h2 id="environmental-history-paleoclimatology-and-bioarchaeology">Environmental History, Paleoclimatology, and Bioarchaeology</h2>
+<p>This track introduces scientific and archaeological methodologies used to reconstruct past environmental shocks, settlement ecologies, demographic trends, and ancient disease transmission.</p>
+<p>Medieval Environmental Systems &amp; Ecosystem Change: <a href="https://archive.org/details/environmentalhis0000hoff" target="_blank" rel="noopener noreferrer">An Environmental History of Medieval Europe (Richard C. Hoffmann)</a> - The definitive field survey exploring the interactions between humans, animal populations, soil depletion, woodland management, fisheries, and changing climatic conditions from 500 to 1500.</p>
+<p>Landscape Archaeology &amp; Settlement Patterns: <a href="https://books.google.com/books?isbn=9781843837220" target="_blank" rel="noopener noreferrer">Medieval Life: Archaeology and the Life Course (Roberta Gilchrist)</a> - Uses material culture, grave goods, spatial analysis, and excavated settlements to examine how lived experience, bodily health, and spatial hierarchies intersected in medieval daily life.</p>
+<p>Paleopathology &amp; Ancient Pathogen Genomics: <a href="https://scholarworks.wmich.edu/medieval_globe/1" target="_blank" rel="noopener noreferrer">Pandemic Disease in the Medieval World: Rethinking the Black Death (Monica H. Green, ed.)</a> - An open-access volume uniting geneticists, bioarchaeologists, and historians to re-evaluate the origins, global spread, and <em>Yersinia pestis</em> aDNA lineages of the Second Plague Pandemic.</p>
+<p>Skeletal Bioarchaeology &amp; Paleodietary Reconstruction: <a href="https://books.google.com/books?isbn=9780521838696" target="_blank" rel="noopener noreferrer">Bioarchaeology: Interpreting Behavior from the Human Skeleton (Clark Spencer Larsen)</a> - A comprehensive guide to the biological and osteological methods used to reconstruct workload stress, malnutrition, dental pathology, and isotopic diet profiles from human skeletal remains.</p>
+<h2 id="the-global-middle-ages-and-frontier-dynamics">The Global Middle Ages and Frontier Dynamics</h2>
+<p>This track explores cross-cultural interactions, commercial world systems, and nomadic state formation outside traditional Eurocentric boundaries between the sixth and sixteenth centuries.</p>
+<p>Afro-Eurasian World Systems: <a href="https://archive.org/details/beforeeuropehehe0000abul" target="_blank" rel="noopener noreferrer">Before European Hegemony: The World System A.D. 1250–1350 (Janet L. Abu-Lughod)</a> - A landmark global economic history mapping the eight interlocking commercial circuits that integrated China, India, the Middle East, and Europe prior to western dominance.</p>
+<p>Medieval West African Empires: <a href="https://books.google.com/books?isbn=9780691177427" target="_blank" rel="noopener noreferrer">African Dominion: A New History of Empire in Early and Medieval West Africa (Michael A. Gomez)</a> - An award-winning monograph tracing trans-Saharan trade routes, Islamic statecraft, and political centralisation across the Ghana, Mali, and Songhay empires.</p>
+<p>Inner Asian Steppe Hegemonies: <a href="https://books.google.com/books?isbn=9780691135892" target="_blank" rel="noopener noreferrer">Empires of the Silk Road: A History of Central Eurasia from the Bronze Age to the Present (Christopher I. Beckwith)</a> - A comprehensive reinterpretation of Central Eurasian history, emphasizing the sophisticated economic structures, diplomacy, and military institutions of nomadic steppe confederations.</p>
+<p>Indian Ocean Maritime Networks: <a href="https://books.google.com/books?isbn=9781108424387" target="_blank" rel="noopener noreferrer">Monsoon Islam: Trade and Faith on the Medieval Malabar Coast (Sebastian R. Prange)</a> - Examines oceanic commerce, diaspora port enclaves, and merchant-driven religious developments across the medieval Indian Ocean rim.</p>
+<p>Global Medieval Frameworks &amp; Methodologies: <a href="https://academic.oup.com/past/issue/238/suppl_13" target="_blank" rel="noopener noreferrer">The Global Middle Ages (Catherine Holmes &amp; Naomi Standen, eds.)</a> - An open-access collaborative collection examining connectivity, mobility, recording cultures, and comparative global frameworks across pre-1500 Afro-Eurasia and the Americas.</p>
+    </article>
+  </main>
 
 </body>
 </html>

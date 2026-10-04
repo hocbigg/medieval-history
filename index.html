@@ -1,258 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Medieval History</title>
-<link rel="stylesheet" href="/medieval-history/style.css">
-<meta name="description" content="Path to a free self-taught education in Medieval History!">
+  <title>Hocbigg - Medieval History</title>
+  <meta name="description" content="Path to a free self-taught education in Medieval History!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/medieval-history/">
+  <link rel="canonical" href="https://hocbigg.github.io/medieval-history/">
+  <meta property="og:title" content="Hocbigg - Medieval History">
+  <meta property="og:description" content="Path to a free self-taught education in Medieval History!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/medieval-history/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Medieval History">
-<meta property="og:description" content="Path to a free self-taught education in Medieval History!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/medieval-history/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/medieval-history/">Medieval-History</a>
-<a href="/medieval-history/advanced_topics.html">Advanced Topics</a>
-<a href="/medieval-history/projects.html">Projects</a>
-<a href="/medieval-history/extras/courses.html">Extra Courses</a>
-<a href="/medieval-history/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/medieval-history/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/medieval-history/">Medieval History</a></li>
+      <li><a href="/medieval-history/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/medieval-history/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/medieval-history/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/medieval-history" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Medieval History</h1>
+  <p class="page-subtitle">Path to a free self-taught education in Medieval History!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-10-01">2026-10-01</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Medieval history spans the millennium between the collapse of classical antiquity and the emergence of the early modern world (roughly 300 to 1500 CE). Far from being a static "Dark Age," this era witnessed the reinvention of imperial governance, the rise and consolidation of world religions, the birth of universities and common legal codes, and widespread urbanization. Crucially, modern scholarship does not treat the medieval past as an isolated history of Western European feudalism. Instead, this curriculum examines the medieval world through the three distinct civilizations that inherited the Roman Mediterranean—Latin Christendom, the Byzantine Empire, and the Islamic Caliphates—alongside the nomadic confederations and trade routes that connected Afro-Eurasia.</p>
+<p>This curriculum is designed for self-directed learners coming to the discipline with no prior background. You do not need formal training in historical methods, nor do you need to read classical or medieval languages like Latin, Greek, or Arabic. All included texts, source readers, and lecture series rely on accessible English translations and guided commentary.</p>
+<h3 id="how-to-navigate-the-curriculum">How to Navigate the Curriculum</h3>
+<p>The curriculum is structured into five core modules designed to be tackled in a deliberate sequence:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li><strong>Start with the foundations:</strong> Begin with <em>Foundations of Medieval History and Historiography</em>. This module pairs a narrative survey with a primary source reader and a guide to historical method, giving you the chronological framework, spatial geography, and analytical tools necessary to make sense of medieval evidence.</li>
+<li><strong>Follow the chronological core:</strong> Proceed through the three chronological frameworks in order—<em>The Early Middle Ages (c. 300–1000)</em>, <em>The Central Middle Ages (c. 1000–1300)</em>, and <em>The Late Middle Ages (c. 1300–1500)</em>. Because institutions like papal administration, feudal obligations, scholastic philosophy, and imperial borders evolved cumulatively, working chronologically ensures you understand the causes behind later transformations and crises.</li>
+<li><strong>Synthesize with trans-regional connectivity:</strong> The final module, <em>Connected Worlds: Afro-Eurasian Trade, Travel, and Nomadic Empires</em>, can be studied as a capstone or read in parallel with the chronological modules. It steps back from regional politics to examine the overland Silk Roads, Indian Ocean maritime routes, and pastoral steppe empires that integrated pre-modern Eurasia and Africa.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Medieval History curriculum is a <strong>complete education in Medieval History</strong> using online materials.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into three main components:</p>
+<h3 id="scope">Scope</h3>
+<p>This page covers only the shared, foundational knowledge that every student of medieval history needs before branching out into specialized research. It does not attempt to cover niche regional histories or technical research skills like manuscript paleography or diplomatics. </p>
+<p>Once you have completed this foundational path, you can expand your studies using the other guides in this series:</p>
 <ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
-<li><strong><a href="projects.html">Projects</a></strong>: support learning through practical application throughout the curriculum.</li>
+<li>Explore <a href="advanced_topics.html">Advanced Topics</a> to dive into specialized subfields like manuscript studies and codicology, medieval intellectual history, non-elite social history, environmental bioarchaeology, and the Global Middle Ages.</li>
+<li>Consult <a href="extras/readings.html">Readings</a> for a curated bibliography of landmark primary chronicles, paradigm-shifting monographs, and influential historical essays.</li>
+<li>Check <a href="extras/courses.html">Courses</a> for full-length university lecture series, open courseware, and audio programs covering specific themes like medieval art and philosophy.</li>
 </ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Practical work is integrated through the <a href="projects.html">Projects section</a> and may be undertaken alongside coursework.</p>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
-<p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h3 id="communities">Communities</h3>
 <ul>
 <li>Forums:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://historum.com/">Historum</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://reshistorica.forumotion.com/">Res Historica</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.alternatehistory.com/forum/">AlternateHistory.com</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.thehistorypress.co.uk/forum/">History Forum at The History Press</a></li>
+<li><a href="https://historum.com/" target="_blank" rel="noopener noreferrer">Historum</a></li>
+<li><a href="https://reshistorica.forumotion.com/" target="_blank" rel="noopener noreferrer">Res Historica</a></li>
+<li><a href="https://www.alternatehistory.com/forum/" target="_blank" rel="noopener noreferrer">AlternateHistory.com</a></li>
 </ul>
 </li>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/history/">r/history</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AskHistorians/">r/AskHistorians</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/HistoryPorn/">r/HistoryPorn</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AcademicHistory/">r/AcademicHistory</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/HistoryWhatIf/">r/HistoryWhatIf</a></li>
+<li><a href="https://www.reddit.com/r/history/" target="_blank" rel="noopener noreferrer">r/history</a></li>
+<li><a href="https://www.reddit.com/r/AskHistorians/" target="_blank" rel="noopener noreferrer">r/AskHistorians</a></li>
+<li><a href="https://www.reddit.com/r/HistoryPorn/" target="_blank" rel="noopener noreferrer">r/HistoryPorn</a></li>
+<li><a href="https://www.reddit.com/r/AcademicHistory/" target="_blank" rel="noopener noreferrer">r/AcademicHistory</a></li>
+<li><a href="https://www.reddit.com/r/HistoryWhatIf/" target="_blank" rel="noopener noreferrer">r/HistoryWhatIf</a></li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/medieval-history/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/medieval-history/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<ul>
-<li><a href="#foundations-thinking-historically-about-the-medieval-world">Foundations: Thinking Historically About the Medieval World</a></li>
-<li><a href="#global-frameworks-i-the-post-classical-world-c-3001000">Global Frameworks I: The Post-Classical World c. 300–1000</a></li>
-<li><a href="#global-frameworks-ii-systems-of-power-and-belief-c-10001300">Global Frameworks II: Systems of Power and Belief c. 1000–1300</a></li>
-<li><a href="#connected-worlds-trade-travel-and-exchange">Connected Worlds: Trade, Travel, and Exchange</a></li>
-</ul>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<h3 id="core-sections">Core Sections</h3>
-<p>Study them in this exact order:</p>
-<ol>
-<li>
-<p><strong>Foundations: Thinking Historically About the Medieval World</strong><br />
-   Start here. This section teaches you how historians actually work with medieval evidence and ideas. Finish it before moving forward.</p>
-</li>
-<li>
-<p><strong>Global Frameworks I: The Post-Classical World (c. 300–1000)</strong><br />
-   This gives you the big picture of how the ancient world broke apart and new societies took shape across Eurasia.</p>
-</li>
-<li>
-<p><strong>Global Frameworks II: Systems of Power and Belief (c. 1000–1300)</strong><br />
-   Next, you learn how political systems, laws, and major belief systems became organized and powerful during the central medieval centuries.</p>
-</li>
-<li>
-<p><strong>Connected Worlds: Trade, Travel, and Exchange</strong><br />
-   This section shows how all these regions were linked through long-distance networks, completing the main story of the medieval period.</p>
-</li>
-</ol>
-<h2 id="foundations-thinking-historically-about-the-medieval-world">Foundations: Thinking Historically About the Medieval World</h2>
-<p><em>How historians study a non-modern, non-universal past</em></p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Historical Method &amp; Evidence</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/landscapeofhisto0000gadd_v8l8">John Lewis Gaddis, <em>The Landscape of History</em></a></strong></td>
-</tr>
-<tr>
-<td>Global Historiography</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/historiographyin0000igge">Georg Iggers, <em>Historiography in the Twentieth Century</em></a></strong> (selected chapters)</td>
-</tr>
-<tr>
-<td>Periodization &amp; Anachronism</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.pennpress.org/9780812224122/periodization-and-sovereignty/">Kathleen Davis, <em>Periodization and Sovereignty</em></a></strong> (intro chapters)</td>
-</tr>
-<tr>
-<td>Reading Scholarly History</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/craftofresearch00boot">Booth et al., <em>The Craft of Research</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="global-frameworks-i-the-post-classical-world-c-3001000">Global Frameworks I: The Post-Classical World (c. 300–1000)</h2>
-<p><em>Continuity, collapse, and transformation across Eurasia</em></p>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Late Antiquity (Comparative)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/worldoflateantiq0000brow">Peter Brown, <em>The World of Late Antiquity</em></a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-210">Yale HIST 210: The Early Middle Ages, 284–1000</a></strong></td>
-</tr>
-<tr>
-<td>Roman, Persian &amp; Han Legacies</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/inheritanceofrom0000wick">Chris Wickham, <em>Inheritance of Rome</em></a></strong></td>
-<td></td>
-</tr>
-<tr>
-<td>Byzantium Emerges</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/byzantiumsurpris0000herr">Judith Herrin, <em>Byzantium</em></a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-210/lecture-18">Yale HIST 210 lectures on Byzantium</a></strong> (see "The Splendor of Byzantium" and related)</td>
-</tr>
-<tr>
-<td>Rise of Islam</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/greatarabconques0000kenn">Hugh Kennedy, <em>The Great Arab Conquests</em></a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/history/hist-210">Yale HIST 210</a></strong></td>
-</tr>
-<tr>
-<td>South Asia after Gupta</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/earlyindiafromor00thap">Romila Thapar, <em>Early India</em></a></strong></td>
-<td></td>
-</tr>
-<tr>
-<td>Tang–Song China</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/chinabetweenempi00lewi">Mark Lewis, <em>China Between Empires</em></a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/chinax-chinas-past-present-future">Harvard ChinaX</a></strong> (relevant parts on imperial China)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="global-frameworks-ii-systems-of-power-and-belief-c-10001300">Global Frameworks II: Systems of Power and Belief (c. 1000–1300)</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Kingship &amp; Statecraft (Comparative)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/makingofpolities0000watt">John Watts, <em>The Making of Polities</em></a></strong> (Archive.org)</td>
-</tr>
-<tr>
-<td>Law &amp; Governance</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/introductiontois0000hall">Wael Hallaq, <em>An Introduction to Islamic Law</em></a></strong></td>
-</tr>
-<tr>
-<td>Christianity, Islam, Buddhism</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/riseofwesternchr0000brow">Peter Brown, <em>The Rise of Western Christendom</em></a></strong></td>
-</tr>
-<tr>
-<td>Confucian Revival</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL5DD220D6A1282057">Peter Bol, <em>Neo-Confucianism in History</em></a></strong> (open lectures via Harvard/Yale-style channels; Bol's related talks)</td>
-</tr>
-<tr>
-<td>Education &amp; Knowledge</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/riseofcollegesin0000makd">George Makdisi, <em>The Rise of Colleges</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="connected-worlds-trade-travel-and-exchange">Connected Worlds: Trade, Travel, and Exchange</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Silk Roads</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/silkroad0000hans">Valerie Hansen, <em>The Silk Road</em></a></strong></td>
-</tr>
-<tr>
-<td>Indian Ocean World</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/tradecivilisatio0000chau">K.N. Chaudhuri, <em>Trade and Civilisation in the Indian Ocean</em></a></strong></td>
-</tr>
-<tr>
-<td>Nomads &amp; Empires</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/perilousfrontier0000barf">Thomas Barfield, <em>The Perilous Frontier</em></a></strong></td>
-</tr>
-<tr>
-<td>Mongol Eurasia</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/mongolconquests0000mayt">Timothy May, <em>The Mongol Conquests</em></a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="congratulations">Congratulations</h2>
-<p>After completing the requirements of the curriculum above,
-you will have completed the equivalent of a full bachelor's degree in Medieval History.
-Congratulations!</p>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="foundations-of-medieval-history-and-historiography">Foundations of Medieval History and Historiography</h3>
+<p>This foundational module introduces the concept of the Middle Ages, the core narrative of its three heir civilizations, and the critical methods historians use to interpret medieval primary evidence.</p>
+<p><a href="https://books.google.com/books?isbn=9781487540999" target="_blank" rel="noopener noreferrer">A Short History of the Middle Ages (Barbara H. Rosenwein)</a> - Serves as the core chronological and geographical narrative spine, charting the parallel evolution of Western Europe, Byzantium, and the Islamic world from c. 300 to 1500.</p>
+<p><a href="https://archive.org/details/whatismedievalhi0000arno" target="_blank" rel="noopener noreferrer">What is Medieval History? (John H. Arnold)</a> - Best read alongside Rosenwein's survey as a methodological companion, explaining how modern historians interrogate fragmentary medieval sources, navigate anachronisms, and construct historical arguments.</p>
+<p><a href="https://archive.org/details/readingmiddleage0002unse" target="_blank" rel="noopener noreferrer">Reading the Middle Ages: Sources from Europe, Byzantium, and the Islamic World (Barbara H. Rosenwein)</a> - The primary-source companion designed to match Rosenwein's narrative textbook; study its translated documentary and material selections in tandem with each survey chapter.</p>
+<h3 id="the-early-middle-ages-the-post-classical-world-c-3001000">The Early Middle Ages: The Post-Classical World (c. 300–1000)</h3>
+<p>This module examines the transformation of the late Roman world, the rise of Germanic successor kingdoms in the West, the survival of the Eastern Roman Empire, and the rapid expansion of the Islamic Caliphates.</p>
+<p><a href="https://oyc.yale.edu/history/hist-210" target="_blank" rel="noopener noreferrer">The Early Middle Ages, 284–1000 (Open Yale Courses / Paul Freedman)</a> - The primary audiovisual lecture spine for this period, offering a complete 24-lecture university walkthrough covering the collapse of Roman administration, early monasticism, the rise of Islam, and the Carolingian Empire.</p>
+<p><a href="https://archive.org/details/worldoflateantiq0000brow" target="_blank" rel="noopener noreferrer">The World of Late Antiquity: AD 150–750 (Peter Brown)</a> - Provides the foundational conceptual framework for the opening segment of Freedman's lectures, showing how Mediterranean cultural and religious life transformed continuously rather than abruptly collapsing.</p>
+<p><a href="https://archive.org/details/inheritanceofrom0000wick" target="_blank" rel="noopener noreferrer">The Inheritance of Rome: Illuminating the Dark Ages, 400–1000 (Chris Wickham)</a> - A detailed regional monograph focusing on the post-Roman West; use this to deepen Freedman's lectures on barbarian kingdoms, peasant economies, and the Carolingian state.</p>
+<p><a href="https://archive.org/details/byzantiumsurpris0000herr" target="_blank" rel="noopener noreferrer">Byzantium: The Surprising Life of a Medieval Empire (Judith Herrin)</a> - A complementary regional study to be paired with Freedman's Byzantine lectures, offering an accessible analysis of Constantinople's court administration, Orthodox theology, and military survival.</p>
+<p><a href="https://archive.org/details/greatarabconques0000kenn" target="_blank" rel="noopener noreferrer">The Great Arab Conquests: How the Spread of Islam Changed the World We Live In (Hugh Kennedy)</a> - Complements the Western and Byzantine readings with a focused narrative detailing the military campaigns, social integration, and early governance of the Umayyad and Abbasid Caliphates.</p>
+<h3 id="the-central-middle-ages-systems-of-power-faith-and-learning-c-10001300">The Central Middle Ages: Systems of Power, Faith, and Learning (c. 1000–1300)</h3>
+<p>This module covers European feudal institutions, economic revival, papal authority, the Crusades in the Levant, classical Islamic jurisprudence, and the rise of scholastic learning and universities.</p>
+<p><a href="https://archive.org/details/isbn_9780140154092" target="_blank" rel="noopener noreferrer">The Making of Europe: Conquest, Colonization and Cultural Change, 950–1350 (Robert Bartlett)</a> - The core institutional baseline for the Central Middle Ages, demonstrating how military conquest, chivalric culture, and legal homogenization expanded Latin Christendom to the European periphery.</p>
+<p><a href="https://archive.org/details/westernsocietych0000sout" target="_blank" rel="noopener noreferrer">Western Society and the Church in the Middle Ages (R.W. Southern)</a> - Complements Bartlett's secular statecraft by exploring the parallel development of papal administrative authority, monastic reform movements, and popular religious life.</p>
+<p><a href="https://archive.org/details/crusadesauthorit0000asbr" target="_blank" rel="noopener noreferrer">The Crusades: The Authoritative History of the War for the Holy Land (Thomas Asbridge)</a> - Builds directly on Bartlett's and Southern's analyses of outward Latin expansion and religious zeal, providing a balanced account of military campaigns and cross-cultural encounters in the Levant.</p>
+<p><a href="https://archive.org/details/introductiontois0000hall" target="_blank" rel="noopener noreferrer">An Introduction to Islamic Law (Wael B. Hallaq)</a> - Acts as a non-Western institutional counterpart to Southern's church history, detailing how legal schools, judicial courts, and religious jurisprudence structured medieval Islamic societies.</p>
+<p><a href="https://archive.org/details/medievalfoundati0000coli" target="_blank" rel="noopener noreferrer">Medieval Foundations of the Western Intellectual Tradition, 400–1400 (Marcia L. Colish)</a> - Best studied after grasping the institutional frameworks of Bartlett and Southern; synthesizes the rise of scholastic disputation, universities, and philosophical dialogue across Latin, Byzantine, and Arabic traditions.</p>
+<h3 id="the-late-middle-ages-crisis-plague-and-transformation-c-13001500">The Late Middle Ages: Crisis, Plague, and Transformation (c. 1300–1500)</h3>
+<p>This module investigates the systemic shocks of the fourteenth and fifteenth centuries, including environmental change, the Black Death, prolonged warfare, ecclesiastical fragmentation, and the fall of Constantinople.</p>
+<p><a href="https://archive.org/details/blackdeathgreatm0000aber" target="_blank" rel="noopener noreferrer">The Black Death: The Great Mortality of 1348–1350: A Brief History with Documents (John Aberth)</a> - The foundational entry point for this module, combining an accessible narrative with translated contemporary testimonies to examine the immediate demographic, social, and psychological shock of the pandemic.</p>
+<p><a href="https://books.google.com/books?isbn=9780521144438" target="_blank" rel="noopener noreferrer">The Great Transition: Climate, Disease and Society in the Late-Medieval World (Bruce M. S. Campbell)</a> - Expands on Aberth's plague focus by situating the pandemic within a broader multi-disciplinary framework of climatic cooling, agrarian harvest crises, and macroeconomic contraction across Eurasia.</p>
+<p><a href="https://archive.org/details/makingofpolities0000watt" target="_blank" rel="noopener noreferrer">The Making of Polities: Europe, 1300–1500 (John Watts)</a> - Builds on the socioeconomic disruptions outlined by Campbell, examining how endemic warfare, representative assemblies, and factional politics drove the consolidation of late medieval sovereign states.</p>
+<p><a href="https://archive.org/details/osmansdreamstory0000fink" target="_blank" rel="noopener noreferrer">Osman's Dream: The History of the Ottoman Empire (Caroline Finkel)</a> - Complements Watts's Western European focus by tracing the disintegration of the Byzantine state and the rise of the early Ottoman Empire as the dominant imperial power in southeastern Europe and Anatolia.</p>
+<h3 id="connected-worlds-afro-eurasian-trade-travel-and-nomadic-empires">Connected Worlds: Afro-Eurasian Trade, Travel, and Nomadic Empires</h3>
+<p>This module explores the global connections linking medieval civilizations, focusing on caravan routes across Central Asia, maritime trade across the Indian Ocean, and the political impact of the Mongol Empire.</p>
+<p><a href="https://books.google.com/books?isbn=9780190218423" target="_blank" rel="noopener noreferrer">The Silk Road: A New History (Valerie Hansen)</a> - The primary study of overland Eurasian connectivity, utilizing archaeological records from Central Asian oasis settlements to examine trade mechanics, refugee movements, and cultural diffusion.</p>
+<p><a href="https://archive.org/details/tradecivilisatio00chau" target="_blank" rel="noopener noreferrer">Trade and Civilisation in the Indian Ocean: An Economic History from the Rise of Islam to 1750 (K.N. Chaudhuri)</a> - Serves as the maritime counterpart to Hansen's overland focus, analyzing the seasonal monsoon routes, port cities, and commercial diasporas linking the Middle East, India, and China.</p>
+<p><a href="https://archive.org/details/perilousfrontier0000barf" target="_blank" rel="noopener noreferrer">The Perilous Frontier: Nomadic Empires and China (Thomas J. Barfield)</a> - Establishes the theoretical anthropological framework for understanding pastoral nomadism, explaining how steppe confederations organized politically to interact with and extract wealth from sedentary agrarian empires.</p>
+<p><a href="https://books.google.com/books?isbn=9781861898678" target="_blank" rel="noopener noreferrer">The Mongol Conquests in World History (Timothy May)</a> - Applies the nomadic dynamics explored in Barfield, showing how the unified thirteenth-century Mongol Empire integrated Eurasian commerce, diplomatic exchange, and administrative techniques across regions.</p>
+    </article>
+  </main>
 
 </body>
 </html>
